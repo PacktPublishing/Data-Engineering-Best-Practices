@@ -1,9 +1,9 @@
 MIME-Version: 1.0
-Content-Type: multipart/related; boundary="----=_NextPart_01DA8C2F.BAE4F690"
+Content-Type: multipart/related; boundary="----=_NextPart_01DA8C37.33DA37C0"
 
 This document is a Single File Web Page, also known as a Web Archive file.  If you are seeing this message, your browser or editor doesn't support Web Archive files.  Please download a browser that supports Web Archive.
 
-------=_NextPart_01DA8C2F.BAE4F690
+------=_NextPart_01DA8C37.33DA37C0
 Content-Location: file:///C:/EC2C4CD1/1.htm
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/html; charset="windows-1252"
@@ -26,15 +26,16 @@ xmlns=3D"http://www.w3.org/TR/REC-html40">
   <o:Author>Richard Schiller</o:Author>
   <o:LastAuthor>Richard Schiller</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>1</o:TotalTime>
-  <o:Created>2024-04-11T20:45:00Z</o:Created>
-  <o:LastSaved>2024-04-11T20:45:00Z</o:LastSaved>
+  <o:TotalTime>6</o:TotalTime>
+  <o:LastPrinted>2024-04-11T21:38:00Z</o:LastPrinted>
+  <o:Created>2024-04-11T21:39:00Z</o:Created>
+  <o:LastSaved>2024-04-11T21:39:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
   <o:Words>149</o:Words>
-  <o:Characters>852</o:Characters>
+  <o:Characters>851</o:Characters>
   <o:Lines>7</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>1000</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>999</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -45,7 +46,6 @@ xmlns=3D"http://www.w3.org/TR/REC-html40">
 <link rel=3DcolorSchemeMapping href=3D"1_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:Zoom>130</w:Zoom>
   <w:SpellingState>Clean</w:SpellingState>
   <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
@@ -982,7 +982,7 @@ ue"
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;
@@ -1006,7 +1006,7 @@ h1
 	margin-right:0in;
 	margin-bottom:4.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:1;
@@ -1037,7 +1037,7 @@ h2
 	margin-right:0in;
 	margin-bottom:4.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:2;
@@ -1067,7 +1067,7 @@ h3
 	margin-right:0in;
 	margin-bottom:4.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:3;
@@ -1097,7 +1097,7 @@ h4
 	margin-right:0in;
 	margin-bottom:2.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:4;
@@ -1128,7 +1128,7 @@ h5
 	margin-right:0in;
 	margin-bottom:2.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:5;
@@ -1158,7 +1158,7 @@ h6
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:6;
@@ -1189,7 +1189,7 @@ p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
 	margin-right:0in;
 	margin-bottom:0in;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:7;
@@ -1215,7 +1215,7 @@ p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
 	mso-style-link:"Heading 8 Char";
 	mso-style-next:Normal;
 	margin:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:8;
@@ -1242,7 +1242,7 @@ p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
 	mso-style-link:"Heading 9 Char";
 	mso-style-next:Normal;
 	margin:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan lines-together;
 	page-break-after:avoid;
 	mso-outline-level:9;
@@ -1372,7 +1372,7 @@ p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:14.0pt;
 	font-family:"Aptos",sans-serif;
@@ -1412,7 +1412,7 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	margin-bottom:8.0pt;
 	margin-left:.5in;
 	mso-add-space:auto;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;
@@ -1437,7 +1437,7 @@ raphCxSpFirst
 	margin-bottom:0in;
 	margin-left:.5in;
 	mso-add-space:auto;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;
@@ -1462,7 +1462,7 @@ agraphCxSpMiddle
 	margin-bottom:0in;
 	margin-left:.5in;
 	mso-add-space:auto;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;
@@ -1487,7 +1487,7 @@ phCxSpLast
 	margin-bottom:8.0pt;
 	margin-left:.5in;
 	mso-add-space:auto;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;
@@ -1512,7 +1512,7 @@ p.MsoQuote, li.MsoQuote, div.MsoQuote
 	margin-bottom:8.0pt;
 	margin-left:0in;
 	text-align:center;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;
@@ -1541,7 +1541,7 @@ p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
 	margin-bottom:.25in;
 	margin-left:.6in;
 	text-align:center;
-	line-height:106%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	border:none;
 	mso-border-top-alt:solid #0F4761 .5pt;
@@ -1880,6 +1880,9 @@ span.P-Endnote
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	mso-ascii-font-family:Aptos;
 	mso-ascii-theme-font:minor-latin;
 	mso-fareast-font-family:Aptos;
@@ -1893,7 +1896,7 @@ span.P-Endnote
 	mso-fareast-language:EN-US;}
 @page WordSection1
 	{size:8.5in 11.0in;
-	margin:117.35pt 1.5in 135.35pt 1.5in;
+	margin:.5in .5in .5in .5in;
 	mso-header-margin:98.65pt;
 	mso-footer-margin:1.0in;
 	mso-title-page:yes;
@@ -1915,7 +1918,7 @@ div.WordSection1
 	mso-padding-alt:0in 5.4pt 0in 5.4pt;
 	mso-para-margin:0in;
 	mso-pagination:widow-orphan;
-	font-size:11.0pt;
+	font-size:10.0pt;
 	font-family:"Aptos",sans-serif;
 	mso-ascii-font-family:Aptos;
 	mso-ascii-theme-font:minor-latin;
@@ -1937,21 +1940,22 @@ break-word'>
 
 <div class=3DWordSection1>
 
-<p class=3DMsoNormal><span class=3DP-Endnote><span style=3D'mso-bidi-font-f=
-amily:
-"Times New Roman";mso-bidi-theme-font:minor-bidi;color:black;mso-color-alt:
-windowtext;border:none'><span style=3D'mso-special-character:footnote'><![i=
-f !supportFootnotes]><span
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.5in;tab-stops:=
+.5in'><span
+class=3DP-Endnote><span style=3D'mso-bidi-font-family:"Times New Roman";mso=
+-bidi-theme-font:
+minor-bidi;color:black;mso-color-alt:windowtext;border:none'><span
+style=3D'mso-special-character:footnote'><![if !supportFootnotes]><span
 class=3DP-Endnote><b style=3D'mso-bidi-font-weight:normal'><span style=3D'f=
 ont-size:
-11.0pt;line-height:106%;mso-fareast-font-family:Aptos;mso-fareast-theme-fon=
+11.0pt;line-height:105%;mso-fareast-font-family:Aptos;mso-fareast-theme-fon=
 t:
 minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:mino=
 r-bidi;
 color:black;border:none;mso-ligatures:standardcontextual;mso-ansi-language:
 EN-GB;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;font-style:normal'=
->[1]</span></b></span><![endif]></span></span></span>
-<span style=3D'mso-tab-count:1'>             </span><a
+>[1]</span></b></span><![endif]></span></span></span><span
+style=3D'mso-tab-count:1'>              </span><a
 href=3D"https://en.wikipedia.org/wiki/Market_data"><span class=3DP-URL><span
 lang=3DEN-US style=3D'mso-bidi-font-family:"Times New Roman";mso-bidi-theme=
 -font:
@@ -2005,7 +2009,7 @@ https://en.wikipedia.org/wiki/Market_data</span></a>.</p>
 
 </html>
 
-------=_NextPart_01DA8C2F.BAE4F690
+------=_NextPart_01DA8C37.33DA37C0
 Content-Location: file:///C:/EC2C4CD1/1_files/themedata.thmx
 Content-Transfer-Encoding: base64
 Content-Type: application/vnd.ms-officetheme
@@ -2070,7 +2074,7 @@ AAAAAAAAAAAA1gIAAHRoZW1lL3RoZW1lL3RoZW1lMS54bWxQSwECLQAUAAYACAAAACEADdGQn7YA
 AAAbAQAAJwAAAAAAAAAAAAAAAACYCgAAdGhlbWUvdGhlbWUvX3JlbHMvdGhlbWVNYW5hZ2VyLnht
 bC5yZWxzUEsFBgAAAAAFAAUAXQEAAJMLAAAAAA==
 
-------=_NextPart_01DA8C2F.BAE4F690
+------=_NextPart_01DA8C37.33DA37C0
 Content-Location: file:///C:/EC2C4CD1/1_files/colorschememapping.xml
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/xml
@@ -2080,7 +2084,7 @@ Content-Type: text/xml
  bg1=3D"lt1" tx1=3D"dk1" bg2=3D"lt2" tx2=3D"dk2" accent1=3D"accent1" accent=
 2=3D"accent2" accent3=3D"accent3" accent4=3D"accent4" accent5=3D"accent5" a=
 ccent6=3D"accent6" hlink=3D"hlink" folHlink=3D"folHlink"/>
-------=_NextPart_01DA8C2F.BAE4F690
+------=_NextPart_01DA8C37.33DA37C0
 Content-Location: file:///C:/EC2C4CD1/1_files/filelist.xml
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/xml; charset="utf-8"
@@ -2091,4 +2095,4 @@ Content-Type: text/xml; charset="utf-8"
  <o:File HRef=3D"colorschememapping.xml"/>
  <o:File HRef=3D"filelist.xml"/>
 </xml>
-------=_NextPart_01DA8C2F.BAE4F690--
+------=_NextPart_01DA8C37.33DA37C0--
