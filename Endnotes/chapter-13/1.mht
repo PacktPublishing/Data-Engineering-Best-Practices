@@ -1,12 +1,12 @@
 MIME-Version: 1.0
-Content-Type: multipart/related; boundary="----=_NextPart_01DA8C3B.31AEF680"
+Content-Type: multipart/related; boundary="----=_NextPart_01DA8C3B.932E11C0"
 
 This document is a Single File Web Page, also known as a Web Archive file.  If you are seeing this message, your browser or editor doesn't support Web Archive files.  Please download a browser that supports Web Archive.
 
-------=_NextPart_01DA8C3B.31AEF680
+------=_NextPart_01DA8C3B.932E11C0
 Content-Location: file:///C:/EC2C4CD1/1.htm
 Content-Transfer-Encoding: quoted-printable
-Content-Type: text/html; charset="windows-1252"
+Content-Type: text/html; charset="us-ascii"
 
 <html xmlns:v=3D"urn:schemas-microsoft-com:vml"
 xmlns:o=3D"urn:schemas-microsoft-com:office:office"
@@ -15,64 +15,31 @@ xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml"
 xmlns=3D"http://www.w3.org/TR/REC-html40">
 
 <head>
-<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
-2">
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
 <meta name=3DProgId content=3DWord.Document>
 <meta name=3DGenerator content=3D"Microsoft Word 15">
 <meta name=3DOriginator content=3D"Microsoft Word 15">
 <link rel=3DFile-List href=3D"1_files/filelist.xml">
-<!--[if gte mso 9]><xml>
- <o:DocumentProperties>
-  <o:Author>Richard Schiller</o:Author>
-  <o:LastAuthor>Richard Schiller</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>1</o:TotalTime>
-  <o:LastPrinted>2024-04-11T21:59:00Z</o:LastPrinted>
-  <o:Created>2024-04-11T22:08:00Z</o:Created>
-  <o:LastSaved>2024-04-11T22:08:00Z</o:LastSaved>
-  <o:Pages>1</o:Pages>
-  <o:Words>149</o:Words>
-  <o:Characters>851</o:Characters>
-  <o:Lines>7</o:Lines>
-  <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>999</o:CharactersWithSpaces>
-  <o:Version>16.00</o:Version>
- </o:DocumentProperties>
- <o:OfficeDocumentSettings>
-  <o:AllowPNG/>
- </o:OfficeDocumentSettings>
-</xml><![endif]-->
 <link rel=3DthemeData href=3D"1_files/themedata.thmx">
 <link rel=3DcolorSchemeMapping href=3D"1_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
+  <w:Zoom>130</w:Zoom>
   <w:SpellingState>Clean</w:SpellingState>
   <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
-  <w:PunctuationKerning/>
-  <w:DrawingGridHorizontalSpacing>5.5 pt</w:DrawingGridHorizontalSpacing>
-  <w:DisplayHorizontalDrawingGridEvery>2</w:DisplayHorizontalDrawingGridEve=
-ry>
-  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
   <w:ValidateAgainstSchemas/>
   <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
   <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
   <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
   <w:DoNotPromoteQF/>
-  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
   <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-  <w:LidThemeComplexScript>AR-SA</w:LidThemeComplexScript>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
   <w:Compatibility>
    <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
    <w:SplitPgBreakAndParaMark/>
-   <w:EnableOpenTypeKerning/>
-   <w:DontFlipMirrorIndents/>
-   <w:OverrideTableStyleHps/>
   </w:Compatibility>
   <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
@@ -986,410 +953,9 @@ ue"
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-h1
-	{mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 1 Char";
-	mso-style-next:Normal;
-	margin-top:.25in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:1;
-	font-size:20.0pt;
-	font-family:"Aptos Display",sans-serif;
-	mso-ascii-font-family:"Aptos Display";
-	mso-ascii-theme-font:major-latin;
 	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Aptos Display";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	mso-font-kerning:0pt;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;
-	font-weight:normal;}
-h2
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 2 Char";
-	mso-style-next:Normal;
-	margin-top:8.0pt;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	font-size:16.0pt;
-	font-family:"Aptos Display",sans-serif;
-	mso-ascii-font-family:"Aptos Display";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Aptos Display";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;
-	font-weight:normal;}
-h3
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 3 Char";
-	mso-style-next:Normal;
-	margin-top:8.0pt;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:3;
-	font-size:14.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;
-	font-weight:normal;}
-h4
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 4 Char";
-	mso-style-next:Normal;
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:2.0pt;
-	margin-left:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:4;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;
-	font-weight:normal;
-	font-style:italic;}
-h5
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 5 Char";
-	mso-style-next:Normal;
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:2.0pt;
-	margin-left:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:5;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;
-	font-weight:normal;}
-h6
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 6 Char";
-	mso-style-next:Normal;
-	margin-top:2.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:6;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#595959;
-	mso-themecolor:text1;
-	mso-themetint:166;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;
-	font-weight:normal;
-	font-style:italic;}
-p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 7 Char";
-	mso-style-next:Normal;
-	margin-top:2.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:7;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#595959;
-	mso-themecolor:text1;
-	mso-themetint:166;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 8 Char";
-	mso-style-next:Normal;
-	margin:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:8;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#272727;
-	mso-themecolor:text1;
-	mso-themetint:216;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;
-	font-style:italic;}
-p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
-	{mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-qformat:yes;
-	mso-style-link:"Heading 9 Char";
-	mso-style-next:Normal;
-	margin:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:9;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#272727;
-	mso-themecolor:text1;
-	mso-themetint:216;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoTitle, li.MsoTitle, div.MsoTitle
-	{mso-style-priority:10;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Title Char";
-	mso-style-next:Normal;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:28.0pt;
-	font-family:"Aptos Display",sans-serif;
-	mso-ascii-font-family:"Aptos Display";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Aptos Display";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	letter-spacing:-.5pt;
-	mso-font-kerning:14.0pt;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
-	{mso-style-priority:10;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Title Char";
-	mso-style-next:Normal;
-	mso-style-type:export-only;
-	margin:0in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:28.0pt;
-	font-family:"Aptos Display",sans-serif;
-	mso-ascii-font-family:"Aptos Display";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Aptos Display";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	letter-spacing:-.5pt;
-	mso-font-kerning:14.0pt;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
-	{mso-style-priority:10;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Title Char";
-	mso-style-next:Normal;
-	mso-style-type:export-only;
-	margin:0in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:28.0pt;
-	font-family:"Aptos Display",sans-serif;
-	mso-ascii-font-family:"Aptos Display";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Aptos Display";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	letter-spacing:-.5pt;
-	mso-font-kerning:14.0pt;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
-	{mso-style-priority:10;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Title Char";
-	mso-style-next:Normal;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	mso-add-space:auto;
-	mso-pagination:widow-orphan;
-	font-size:28.0pt;
-	font-family:"Aptos Display",sans-serif;
-	mso-ascii-font-family:"Aptos Display";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Aptos Display";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	letter-spacing:-.5pt;
-	mso-font-kerning:14.0pt;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
-	{mso-style-priority:11;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Subtitle Char";
-	mso-style-next:Normal;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:105%;
-	mso-pagination:widow-orphan;
-	font-size:14.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#595959;
-	mso-themecolor:text1;
-	mso-themetint:166;
-	letter-spacing:.75pt;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
+	mso-fareast-theme-font:minor-fareast;
+	mso-bidi-font-family:"Times New Roman";}
 a:link, span.MsoHyperlink
 	{mso-style-noshow:yes;
 	mso-style-priority:99;
@@ -1400,305 +966,8 @@ a:visited, span.MsoHyperlinkFollowed
 	{mso-style-noshow:yes;
 	mso-style-priority:99;
 	color:#96607D;
-	mso-themecolor:followedhyperlink;
 	text-decoration:underline;
 	text-underline:single;}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	mso-add-space:auto;
-	line-height:105%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParag=
-raphCxSpFirst
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	mso-add-space:auto;
-	line-height:105%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListPar=
-agraphCxSpMiddle
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	mso-add-space:auto;
-	line-height:105%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagra=
-phCxSpLast
-	{mso-style-priority:34;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-type:export-only;
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	mso-add-space:auto;
-	line-height:105%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;}
-p.MsoQuote, li.MsoQuote, div.MsoQuote
-	{mso-style-priority:29;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Quote Char";
-	mso-style-next:Normal;
-	margin-top:8.0pt;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	text-align:center;
-	line-height:105%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	color:#404040;
-	mso-themecolor:text1;
-	mso-themetint:191;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;
-	font-style:italic;}
-p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
-	{mso-style-priority:30;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-link:"Intense Quote Char";
-	mso-style-next:Normal;
-	margin-top:.25in;
-	margin-right:.6in;
-	margin-bottom:.25in;
-	margin-left:.6in;
-	text-align:center;
-	line-height:105%;
-	mso-pagination:widow-orphan;
-	border:none;
-	mso-border-top-alt:solid #0F4761 .5pt;
-	mso-border-top-themecolor:accent1;
-	mso-border-top-themeshade:191;
-	mso-border-bottom-alt:solid #0F4761 .5pt;
-	mso-border-bottom-themecolor:accent1;
-	mso-border-bottom-themeshade:191;
-	padding:0in;
-	mso-padding-alt:10.0pt 0in 10.0pt 0in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	mso-ligatures:standardcontextual;
-	mso-fareast-language:EN-US;
-	font-style:italic;}
-span.MsoIntenseEmphasis
-	{mso-style-priority:21;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	font-style:italic;}
-span.MsoIntenseReference
-	{mso-style-priority:32;
-	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	font-variant:small-caps;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	letter-spacing:.25pt;
-	font-weight:bold;}
-span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 1";
-	mso-ansi-font-size:20.0pt;
-	mso-bidi-font-size:20.0pt;
-	font-family:"Aptos Display",sans-serif;
-	mso-ascii-font-family:"Aptos Display";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Aptos Display";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;}
-span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 2";
-	mso-ansi-font-size:16.0pt;
-	mso-bidi-font-size:16.0pt;
-	font-family:"Aptos Display",sans-serif;
-	mso-ascii-font-family:"Aptos Display";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Aptos Display";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;}
-span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 3";
-	mso-ansi-font-size:14.0pt;
-	mso-bidi-font-size:14.0pt;
-	font-family:"Times New Roman",serif;
-	mso-ascii-font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;}
-span.Heading4Char
-	{mso-style-name:"Heading 4 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 4";
-	font-family:"Times New Roman",serif;
-	mso-ascii-font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	font-style:italic;}
-span.Heading5Char
-	{mso-style-name:"Heading 5 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 5";
-	font-family:"Times New Roman",serif;
-	mso-ascii-font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;}
-span.Heading6Char
-	{mso-style-name:"Heading 6 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 6";
-	font-family:"Times New Roman",serif;
-	mso-ascii-font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#595959;
-	mso-themecolor:text1;
-	mso-themetint:166;
-	font-style:italic;}
 p.msonormal0, li.msonormal0, div.msonormal0
 	{mso-style-name:msonormal;
 	mso-style-unhide:no;
@@ -1711,122 +980,21 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
-span.Heading7Char
-	{mso-style-name:"Heading 7 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
 	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 7";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
 	font-family:"Times New Roman",serif;
-	mso-ascii-font-family:"Times New Roman";
 	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#595959;
-	mso-themecolor:text1;
-	mso-themetint:166;}
-span.Heading8Char
-	{mso-style-name:"Heading 8 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 8";
-	font-family:"Times New Roman",serif;
-	mso-ascii-font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#272727;
-	mso-themecolor:text1;
-	mso-themetint:216;
-	font-style:italic;}
-span.Heading9Char
-	{mso-style-name:"Heading 9 Char";
-	mso-style-noshow:yes;
-	mso-style-priority:9;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Heading 9";
-	font-family:"Times New Roman",serif;
-	mso-ascii-font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#272727;
-	mso-themecolor:text1;
-	mso-themetint:216;}
-span.TitleChar
-	{mso-style-name:"Title Char";
-	mso-style-priority:10;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Title;
-	mso-ansi-font-size:28.0pt;
-	mso-bidi-font-size:28.0pt;
-	font-family:"Aptos Display",sans-serif;
-	mso-ascii-font-family:"Aptos Display";
-	mso-ascii-theme-font:major-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Aptos Display";
-	mso-hansi-theme-font:major-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	letter-spacing:-.5pt;
-	mso-font-kerning:14.0pt;}
-span.SubtitleChar
-	{mso-style-name:"Subtitle Char";
-	mso-style-priority:11;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Subtitle;
-	mso-ansi-font-size:14.0pt;
-	mso-bidi-font-size:14.0pt;
-	font-family:"Times New Roman",serif;
-	mso-ascii-font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:major-fareast;
-	mso-hansi-font-family:"Times New Roman";
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:major-bidi;
-	color:#595959;
-	mso-themecolor:text1;
-	mso-themetint:166;
-	letter-spacing:.75pt;}
-span.QuoteChar
-	{mso-style-name:"Quote Char";
-	mso-style-priority:29;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Quote;
-	color:#404040;
-	mso-themecolor:text1;
-	mso-themetint:191;
-	font-style:italic;}
-span.IntenseQuoteChar
-	{mso-style-name:"Intense Quote Char";
-	mso-style-priority:30;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Intense Quote";
-	color:#0F4761;
-	mso-themecolor:accent1;
-	mso-themeshade:191;
-	font-style:italic;}
+	mso-fareast-theme-font:minor-fareast;}
 span.P-URL
 	{mso-style-name:"P - URL";
-	mso-style-priority:1;
 	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-ansi-font-size:11.0pt;
 	font-family:"Arial",sans-serif;
 	mso-ascii-font-family:Arial;
 	mso-hansi-font-family:Arial;
@@ -1840,32 +1008,22 @@ span.P-URL
 	text-underline:single;}
 span.P-Italics
 	{mso-style-name:"P - Italics";
-	mso-style-priority:1;
 	mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
 	font-family:"Arial",sans-serif;
 	mso-ascii-font-family:Arial;
 	mso-hansi-font-family:Arial;
 	mso-bidi-font-family:Arial;
 	background:#FFFC00;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
+	font-style:italic;}
 span.P-Endnote
 	{mso-style-name:"P - Endnote";
 	mso-style-unhide:no;
-	mso-style-parent:"P - Italics";
-	mso-ansi-font-size:11.0pt;
 	font-family:"Aptos",sans-serif;
 	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
 	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:Arial;
 	font-variant:normal !important;
 	color:windowtext;
 	mso-text-animation:none;
-	mso-hide:none;
 	text-transform:none;
 	border:none windowtext 1.0pt;
 	mso-border-alt:none windowtext 0in;
@@ -1883,23 +1041,13 @@ span.P-Endnote
 	font-size:10.0pt;
 	mso-ansi-font-size:10.0pt;
 	mso-bidi-font-size:10.0pt;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:Aptos;
-	mso-fareast-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
 	mso-font-kerning:0pt;
-	mso-ligatures:none;
-	mso-fareast-language:EN-US;}
+	mso-ligatures:none;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:.5in .5in .5in .5in;
-	mso-header-margin:98.65pt;
-	mso-footer-margin:1.0in;
-	mso-title-page:yes;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
 	mso-paper-source:0;}
 div.WordSection1
 	{page:WordSection1;}
@@ -1919,12 +1067,7 @@ div.WordSection1
 	mso-para-margin:0in;
 	mso-pagination:widow-orphan;
 	font-size:10.0pt;
-	font-family:"Aptos",sans-serif;
-	mso-ascii-font-family:Aptos;
-	mso-ascii-theme-font:minor-latin;
-	mso-hansi-font-family:Aptos;
-	mso-hansi-theme-font:minor-latin;
-	mso-fareast-language:EN-US;}
+	font-family:"Times New Roman",serif;}
 </style>
 <![endif]--><!--[if gte mso 9]><xml>
  <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026"/>
@@ -1940,68 +1083,43 @@ break-word'>
 
 <div class=3DWordSection1>
 
-<p class=3DMsoNormal style=3D'tab-stops:.25in'><span class=3DP-Endnote><span
-style=3D'mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-b=
-idi;
-color:black;mso-color-alt:windowtext;border:none'><span style=3D'mso-specia=
-l-character:
-footnote'><![if !supportFootnotes]><span class=3DP-Endnote><b style=3D'mso-=
-bidi-font-weight:
-normal'><span style=3D'font-size:11.0pt;line-height:105%;mso-fareast-font-f=
-amily:
-Aptos;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:"Times New Ro=
-man";
-mso-bidi-theme-font:minor-bidi;color:black;border:none;mso-ligatures:standa=
-rdcontextual;
-mso-ansi-language:EN-GB;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;
-font-style:normal'>[1]</span></b></span><![endif]></span></span></span><span
-style=3D'mso-tab-count:1'>      </span><a
-href=3D"https://en.wikipedia.org/wiki/Market_data"><span class=3DP-URL><span
-lang=3DEN-US style=3D'mso-bidi-font-family:"Times New Roman";mso-bidi-theme=
--font:
-minor-bidi;border:none;mso-ansi-language:EN-US'>Market Data</span></span></=
-a>;
-2023; Wikipedia; A <span class=3DP-Italics><span style=3D'mso-bidi-font-fam=
-ily:
-"Times New Roman";mso-bidi-theme-font:minor-bidi;color:black;mso-color-alt:
-windowtext'>Financial Ticker Plant</span></span> is a market data consolida=
-tor
-of real time market information with historical data and time series proces=
-sing
-capabilities. A commercially available financial ticker plant example is : =
-<a
+<p class=3DMsoNormal><span class=3DP-Endnote><b><span style=3D'color:black;
+border:none;font-style:normal'>[1]</span></b></span> </p>
+
+<p class=3DMsoNormal><a href=3D"https://en.wikipedia.org/wiki/Market_data">=
+<span
+class=3DP-URL><span lang=3DEN-US style=3D'border:none;mso-ansi-language:EN-=
+US'>Market
+Data</span></span></a>; 2023; Wikipedia; A <span class=3DP-Italics><span
+style=3D'color:black'>Financial Ticker Plant</span></span> is a market data
+consolidator of real time market information with historical data and time
+series processing capabilities. A commercially available financial ticker p=
+lant
+example is : <a href=3D"https://www.exegy.com/products/exegy-ticker-plant">=
+<span
+class=3DP-URL><span lang=3DEN-US style=3D'border:none;mso-ansi-language:EN-=
+US'>Exegys
+Ticker Plant</span></span></a> (<a
 href=3D"https://www.exegy.com/products/exegy-ticker-plant"><span class=3DP-=
 URL><span
-lang=3DEN-US style=3D'mso-bidi-font-family:"Times New Roman";mso-bidi-theme=
--font:
-minor-bidi;border:none;mso-ansi-language:EN-US'>Exegys Ticker Plant</span><=
-/span></a>
-(<a href=3D"https://www.exegy.com/products/exegy-ticker-plant"><span class=
-=3DP-URL><span
-lang=3DEN-US style=3D'mso-bidi-font-family:"Times New Roman";mso-bidi-theme=
--font:
-minor-bidi;border:none;mso-ansi-language:EN-US'>https://www.exegy.com/produ=
-cts/exegy-ticker-plant</span></span></a>);
+lang=3DEN-US style=3D'border:none;mso-ansi-language:EN-US'>https://www.exeg=
+y.com/products/exegy-ticker-plant</span></span></a>);
 and a non-commercially available ticker plant example is the <a
 href=3D"https://www.londonstockexchange.com/equities-trading/market-data/gr=
 oup-ticker-plant"><span
-class=3DP-URL><span lang=3DEN-US style=3D'mso-bidi-font-family:"Times New R=
-oman";
-mso-bidi-theme-font:minor-bidi;border:none;mso-ansi-language:EN-US'>London
+class=3DP-URL><span lang=3DEN-US style=3D'border:none;mso-ansi-language:EN-=
+US'>London
 Stock Exchanges Group Ticker Plant</span></span></a> (<a
 href=3D"https://www.londonstockexchange.com/equities-trading/market-data/gr=
 oup-ticker-plant"><span
-class=3DP-URL><span lang=3DEN-US style=3D'mso-bidi-font-family:"Times New R=
-oman";
-mso-bidi-theme-font:minor-bidi;border:none;mso-ansi-language:EN-US'>https:/=
-/www.londonstockexchange.com/equities-trading/market-data/group-ticker-plan=
-t</span></span></a>).
+class=3DP-URL><span lang=3DEN-US style=3D'border:none;mso-ansi-language:EN-=
+US'>https://www.londonstockexchange.com/equities-trading/market-data/group-=
+ticker-plant</span></span></a>).
 Refer to: <a href=3D"https://en.wikipedia.org/wiki/Market_data"><span lang=
 =3DEN-US
-style=3D'font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Rom=
-an";
-mso-bidi-theme-font:minor-bidi;background:#00FA00;mso-ansi-language:EN-US'>=
-https://en.wikipedia.org/wiki/Market_data</span></a>.</p>
+style=3D'font-family:"Arial",sans-serif;background:#00FA00;mso-ansi-languag=
+e:
+EN-US'>https://en.wikipedia.org/wiki/Market_data</span></a>.</p>
 
 </div>
 
@@ -2009,7 +1127,7 @@ https://en.wikipedia.org/wiki/Market_data</span></a>.</p>
 
 </html>
 
-------=_NextPart_01DA8C3B.31AEF680
+------=_NextPart_01DA8C3B.932E11C0
 Content-Location: file:///C:/EC2C4CD1/1_files/themedata.thmx
 Content-Transfer-Encoding: base64
 Content-Type: application/vnd.ms-officetheme
@@ -2026,55 +1144,55 @@ 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
-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
-bC5yZWxzUEsFBgAAAAAFAAUAXQEAAJMLAAAAAA==
+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
 
-------=_NextPart_01DA8C3B.31AEF680
+------=_NextPart_01DA8C3B.932E11C0
 Content-Location: file:///C:/EC2C4CD1/1_files/colorschememapping.xml
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/xml
@@ -2084,7 +1202,7 @@ Content-Type: text/xml
  bg1=3D"lt1" tx1=3D"dk1" bg2=3D"lt2" tx2=3D"dk2" accent1=3D"accent1" accent=
 2=3D"accent2" accent3=3D"accent3" accent4=3D"accent4" accent5=3D"accent5" a=
 ccent6=3D"accent6" hlink=3D"hlink" folHlink=3D"folHlink"/>
-------=_NextPart_01DA8C3B.31AEF680
+------=_NextPart_01DA8C3B.932E11C0
 Content-Location: file:///C:/EC2C4CD1/1_files/filelist.xml
 Content-Transfer-Encoding: quoted-printable
 Content-Type: text/xml; charset="utf-8"
@@ -2095,4 +1213,4 @@ Content-Type: text/xml; charset="utf-8"
  <o:File HRef=3D"colorschememapping.xml"/>
  <o:File HRef=3D"filelist.xml"/>
 </xml>
-------=_NextPart_01DA8C3B.31AEF680--
+------=_NextPart_01DA8C3B.932E11C0--
