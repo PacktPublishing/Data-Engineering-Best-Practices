@@ -1,0 +1,176 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:106%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none;
+	background:white;
+	font-style:italic;
+	text-decoration:none;
+	vertical-align:super;}
+p.P-Regular, li.P-Regular, div.P-Regular
+	{mso-style-name:"P - Regular";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.Diagram, li.Diagram, div.Diagram
+	{mso-style-name:Diagram;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:center;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
+	{mso-style-name:"L - Numbers-1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:11.0pt;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:119.5pt 1.5in 131.75pt 1.5in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-GB style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>53</span></span><span
+lang=EN><br>
+<a
+href="https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/guidance-for-multi-region-data-lakes-and-analytics-on-aws-ra.pdf"><span
+class=P-URL>Multi-Region AWS Data Lake with Analytics on AWS</span></a>;
+October 4, 2022; </span></p>
+
+<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN>Use </span><span class=P-Italics><span lang=EN>Amazon
+Simple Storage Service (Amazon S3)</span></span><span lang=EN> as storage for
+the data lake;</span></p>
+
+<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=P-Italics><span lang=EN>AWS Glue Data Catalog</span></span><span
+lang=EN> stores data lake metadata;</span></p>
+
+<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN>Deploy other configurations, such as </span><span
+class=P-Italics><span lang=EN>Amazon Athena</span></span><span lang=EN>
+workgroup settings or </span><span class=P-Italics><span lang=EN>AWS Glue</span></span><span
+lang=EN> catalog schemas by using infrastructure as code (IaC) pipelines;</span></p>
+
+<p class=L-Numbers-1><span lang=EN>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN>Use Multi-AZ configuration for AWS services that
+store data outside of </span><span class=P-Italics><span lang=EN>Amazon S3</span></span><span
+lang=EN>;</span></p>
+
+<p class=L-Numbers-1><span lang=EN>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN>Use </span><span class=P-Italics><span lang=EN>Amazon
+Route 53</span></span><span lang=EN> or </span><span class=P-Italics><span
+lang=EN>AWS Global Accelerator</span></span><span lang=EN> to provide an
+endpoint for data ingestion that can switch to another Region during failover;</span></p>
+
+<p class=L-Numbers-1><span lang=EN>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN>Use </span><span class=P-Italics><span lang=EN>Amazon
+S3</span></span><span lang=EN> cross-Region replication to replicate data to
+the backup Region;</span></p>
+
+<p class=L-Numbers-1><span lang=EN>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN>Keep </span><span class=P-Italics><span lang=EN>AWS
+Glue Data Catalog</span></span><span lang=EN> in sync by using </span><span
+class=P-Italics><span lang=EN>IaC</span></span><span lang=EN> pipelines and
+create new partitions using Amazon S3 events;</span></p>
+
+<p class=L-Numbers-1><span lang=EN>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN>Use </span><span class=P-Italics><span lang=EN>IaC</span></span><span
+lang=EN> pipelines to keep configuration in sync;</span></p>
+
+<p class=L-Numbers-1><span lang=EN>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN>Use AWS service cross-Region replication to back up
+other analytics services; and</span></p>
+
+<p class=L-Numbers-1><span lang=EN>10.<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><span lang=EN>During failover, the workloads in the </span><span
+class=P-Italics><span lang=EN>Amazon S3 AWS Glue</span></span><span lang=EN> backup
+region are deployed. </span></p>
+
+<p class=P-Regular><span lang=EN>Refer to the following reference architecture diagram:
+</span><span class=P-Italics><span lang=EN>Guidance for Multi-Region Data Lakes
+and Analytics on AWS</span></span></p>
+
+<p class=Diagram><span lang=EN><img border=0 width=528 height=271
+id="Picture 631382207" src="53_files/image001.jpg"
+alt="2022-10-04 Guidance for Multi-Region Data Lakes and Analytics on AWS"></span></p>
+
+<p class=MsoNormal><span lang=EN-US>Refer to: <a
+href="https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/guidance-for-multi-region-data-lakes-and-analytics-on-aws-ra.pdf"><span
+class=P-URL>https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/guidance-for-multi-region-data-lakes-and-analytics-on-aws-ra.pdf</span></a></span></p>
+
+</div>
+
+</body>
+
+</html>
