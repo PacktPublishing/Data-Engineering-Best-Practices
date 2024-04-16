@@ -1,0 +1,150 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:105%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.P-Regular, li.P-Regular, div.P-Regular
+	{mso-style-name:"P - Regular";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:106%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.Diagram, li.Diagram, div.Diagram
+	{mso-style-name:Diagram;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:center;
+	line-height:106%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:106%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:119.5pt 1.5in 131.75pt 1.5in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-GB link=blue vlink=purple style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>56</span></span><span lang=EN><br>
+<a
+href="https://learn.microsoft.com/en-us/azure/architecture/example-scenario/analytics/enterprise-bi-synapse"><span
+class=P-URL><span style='border:none'>Enterprise Business Intelligence
+(Analytics) on Azure</span></span></a>; 2024;</span></p>
+
+<p class=P-Regular><span lang=EN>In </span><span class=P-Italics><span lang=EN
+style='border:none'>Enterprise Business Intelligence (Analytics) on Azure</span></span><span
+lang=EN> data is sourced from an </span><span class=P-Italics><span lang=EN
+style='border:none'>Azure SQL Server</span></span><span lang=EN> database.</span></p>
+
+<p class=P-Regular><span lang=EN>Data ingestion and storage take place in the </span><span
+class=P-Italics><span lang=EN style='border:none'>Azure Data Lake Gen2</span></span><span
+lang=EN> used as a staging area during ingestion.</span></p>
+
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>PolyBase</span></span><span
+lang=EN> may be used to copy data into an </span><span class=P-Italics><span
+lang=EN style='border:none'>Azure Synapse dedicated SQL pool.</span></span></p>
+
+<p class=P-Regular><span lang=EN>The distributed </span><span class=P-Italics><span
+lang=EN style='border:none'>Azure Synapse Analytics</span></span><span lang=EN>
+service is designed to perform large data analytics since it implements a </span><span
+class=P-Italics><span lang=EN style='border:none'>massive parallel processing
+(MPP),</span></span><span lang=EN> design needed for running high-performance
+analytics.</span></p>
+
+<p class=P-Regular><span lang=EN>The </span><span class=P-Italics><span
+lang=EN style='border:none'>Azure Synapse dedicated SQL pool</span></span><span
+lang=EN> is the target for subsequent ingestion activities from a source like
+an on-premises system.</span></p>
+
+<p class=P-Regular><span lang=EN>The SQL pool can be used for internal data
+factory processing or for serving data directly through </span><span
+class=P-Italics><span lang=EN style='border:none'>Power BI</span></span><span
+lang=EN> </span><span class=P-Italics><span lang=EN style='border:none'>DirectQuery.</span></span><span
+lang=EN> </span><span class=P-Italics><span lang=EN style='border:none'>Azure
+Pipelines</span></span><span lang=EN> is used to orchestrate various data
+ingestion and transformation processing steps within your </span><span
+class=P-Italics><span lang=EN style='border:none'>Azure Synapse</span></span><span
+lang=EN> workspace.</span></p>
+
+<p class=P-Regular><span lang=EN>Refer to: </span><span class=P-Italics><span
+lang=EN style='border:none'>Azure Enterprise Business Intelligence
+Architecture.</span></span></p>
+
+<p class=Diagram><a
+href="https://arch-center.azureedge.net/enterprise-bi-scoped-architecture.vsdx"><span
+lang=EN style='color:windowtext;text-decoration:none'><img border=0 width=528
+height=372 src="56_files/image001.jpg"
+alt="2023-11-09 Azure Enterprise Business Intelligence Architecture"></span></a></p>
+
+<p class=MsoNormal><span lang=EN-US>Refer to: <a
+href="https://learn.microsoft.com/en-us/azure/architecture/example-scenario/analytics/enterprise-bi-synapse"><span
+class=P-URL><span style='border:none'>https://learn.microsoft.com/en-us/azure/architecture/example-scenario/analytics/enterprise-bi-synapse</span></span></a></span></p>
+
+</div>
+
+</body>
+
+</html>
