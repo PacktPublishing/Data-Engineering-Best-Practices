@@ -1,0 +1,168 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:106%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+p.P-Regular, li.P-Regular, div.P-Regular
+	{mso-style-name:"P - Regular";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:106%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Arial",sans-serif;
+	color:windowtext;
+	border:none;
+	background:white;
+	font-style:italic;
+	vertical-align:super;}
+p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
+	{mso-style-name:"L - Numbers-1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:35.85pt;
+	text-indent:-.25in;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:11.0pt;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:119.5pt 1.5in 131.75pt 1.5in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-GB link="#467886" vlink="#96607D" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>79</span></span><span
+lang=EN><br>
+<a
+href="https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234"><span
+class=P-URL>&quot;Metrics to Evaluate your Machine Learning Algorithm&quot;</span></a>;
+by Aditya Mishra; Feb 24, 2018;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Classification Accuracy;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Logarithmic Loss;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Confusion Matrix;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Area under Curve;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>F1 Score;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Mean Absolute Error; and</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Mean Squared Error.</span></p>
+
+<p class=P-Regular><span lang=EN>Also as pointed out by Tavish Srivastava On
+August 6, 2019 (last updated on July 22, 2023) in <a
+href="https://www.analyticsvidhya.com/blog/2019/08/11-important-model-evaluation-error-metrics/"><span
+class=P-URL>&quot;12 Important Model Evaluation Metrics for Machine Learning
+Everyone Should Know (Updated 2023)&quot;</span></a> (<a
+href="https://www.analyticsvidhya.com/blog/2019/08/11-important-model-evaluation-error-metrics/"><span
+class=P-URL>https://www.analyticsvidhya.com/blog/2019/08/11-important-model-evaluation-error-metrics/</span></a>)
+are:</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Gain Chart and Lift Chart;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Kolomogorov Smirnov Chart;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Gini Coefficient;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Concordant Ratio and Discordant Ratio;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Root Mean Squared Error (RMSE);</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Root Mean Squared Logarithmic Error;</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>R-Squared / Adjusted R-Squared; and</span></p>
+
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN>Cross Validation.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Refer to: <a
+href="https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234"><span
+class=P-URL>https://towardsdatascience.com/metrics-to-evaluate-your-machine-learning-algorithm-f10ba6e38234</span></a>.</span></p>
+
+</div>
+
+</body>
+
+</html>
