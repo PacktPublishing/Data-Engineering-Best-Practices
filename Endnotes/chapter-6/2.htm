@@ -23,76 +23,55 @@
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:106%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:underline;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
 p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:106%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
 span.P-Endnote
 	{mso-style-name:"P - Endnote";
 	font-family:"Aptos",sans-serif;
 	color:windowtext;
-	border:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
 	background:white;
 	font-style:italic;
 	vertical-align:super;}
-.MsoChpDefault
-	{font-size:11.0pt;}
+p.L-Numbers, li.L-Numbers, div.L-Numbers
+	{mso-style-name:"L - Numbers";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	text-indent:-.25in;
+	line-height:106%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
@@ -108,37 +87,39 @@ ul
 
 </head>
 
-<body lang=EN-GB style='word-wrap:break-word'>
+<body lang=EN-GB link=blue vlink=purple style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=MsoNormal><span class=P-Endnote><span style='color:black'>2</span></span><br>
+<p class=MsoNormal><span class=P-Endnote><span style='color:black;border:none'>2</span></span><br>
 <a href="https://www.databricks.com/glossary/medallion-architecture"><span
-class=P-URL>Medallion Architecture</span></a>; 2023; Databricks;</p>
+class=P-URL><span style='border:none'>Medallion Architecture</span></span></a>;
+2023; Databricks;</p>
 
-<p class=MsoNormal><span class=P-Italics>'What is a medallion architecture?'</span>
-Answer:</p>
+<p class=MsoNormal><span class=P-Italics><span style='border:none'>'What is a
+medallion architecture?'</span></span> Answer:</p>
 
-<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>It is a data design pattern.</p>
+<p class=L-Numbers><span style='font-family:"Calibri",sans-serif;color:black'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>It
+is a data design pattern.</p>
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>It is used to organize data (logically) in a lakehouse.</p>
+<p class=L-Numbers><span style='font-family:"Calibri",sans-serif;color:black'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>It
+is used to organize data (logically) in a lakehouse.</p>
 
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Its goal is to incrementally and progressively improve the
-structure / quality of data as it flows through each layer of the architecture <span
-class=P-Italics>(from Bronze </span><span class=P-Italics><span
-style='font-family:"Cambria Math",serif'>&#8658;</span></span><span
-class=P-Italics> Silver </span><span class=P-Italics><span style='font-family:
-"Cambria Math",serif'>&#8658;</span></span><span class=P-Italics> Gold)</span><i>.</i></p>
+<p class=L-Numbers><span style='font-family:"Calibri",sans-serif;color:black'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>Its
+goal is to incrementally and progressively improve the structure / quality of
+data as it flows through each layer of the architecture <span class=P-Italics><span
+style='border:none'>(from Bronze </span></span><span class=P-Italics><span
+style='font-family:"Cambria Math",serif;border:none'>&#8658;</span></span><span
+class=P-Italics><span style='border:none'> Silver </span></span><span
+class=P-Italics><span style='font-family:"Cambria Math",serif;border:none'>&#8658;</span></span><span
+class=P-Italics><span style='border:none'> Gold)</span></span><i>.</i></p>
 
 <p class=P-Regular><i><span lang=EN>Refer to: </span></i><span lang=EN><a
 href="https://www.databricks.com/glossary/medallion-architecture"><span
-class=P-URL>https://www.databricks.com/glossary/medallion-architecture</span></a></span></p>
+class=P-URL><span style='border:none'>https://www.databricks.com/glossary/medallion-architecture</span></span></a></span></p>
 
 </div>
 
