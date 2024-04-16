@@ -20,39 +20,18 @@
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:underline;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
 p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Arial",sans-serif;
-	color:windowtext;
-	border:none;
-	background:white;
-	font-style:italic;
-	vertical-align:super;}
 p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	{mso-style-name:"L - Numbers-1";
 	margin-top:0in;
@@ -62,21 +41,38 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-.MsoChpDefault
-	{font-size:11.0pt;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Arial",sans-serif;
+	color:windowtext;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	vertical-align:super;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -86,45 +82,51 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>59</span></span><span
-lang=EN><br>
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>59</span></span><span lang=EN><br>
 <a href="https://www.mongodb.com/docs/manual/core/timeseries-collections/"><span
-class=P-URL>MongoDB Time Series Collections</span></a>; 2023; </span><span
-class=P-Italics><span lang=EN>MongDB</span></span><span lang=EN> is the data
-engine time series data is a sequence of data points in which insights are
-gained by analyzing changes over time. </span></p>
+class=P-URL><span style='border:none'>MongoDB Time Series Collections</span></span></a>;
+2023; </span><span class=P-Italics><span lang=EN style='border:none'>MongDB</span></span><span
+lang=EN> is the data engine time series data is a sequence of data points in
+which insights are gained by analyzing changes over time.</span></p>
 
 <p class=P-Regular><span lang=EN>Time series data is generally composed of
-these components: </span></p>
+these components:</span></p>
 
-<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>1.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN>Time when the data point was recorded;</span></p>
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>1.</span><span
+lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span><span lang=EN>Time when the data point was recorded;</span></p>
 
-<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>2.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN>Metadata (ie source), which is a tag that uniquely identifies a series
-and rarely changes; and</span></p>
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>2.</span><span
+lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span><span lang=EN>Metadata (ie source), which is a tag that uniquely
+identifies a series and rarely changes; and</span></p>
 
-<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>3.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN>Measurements (metrics or values), which are the data points tracked at
-increments in time.</span></p>
+<p class=L-Numbers-1><span lang=EN style='font-family:"Arial",sans-serif'>3.</span><span
+lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;
+</span><span lang=EN>Measurements (metrics or values), which are the data
+points tracked at increments in time.</span></p>
 
 <p class=P-Regular><span lang=EN>Time series data is stored as key-value pairs
-which change over time. Time series collections store this time series data. In
-MongoDB time series collections … writes operations are organized so data from
-the same sources and times are stored alongside each.</span></p>
+which change over time.</span></p>
+
+<p class=P-Regular><span lang=EN>Time series collections store this time series
+data.</span></p>
+
+<p class=P-Regular><span lang=EN>In MongoDB time series collections, write
+operations are organized so data from the same sources and times are stored
+alongside each.</span></p>
 
 <p class=P-Regular><span lang=EN>A <a
 href="https://github.com/timescale/tsbs/blob/master/docs/mongo.md"><span
-class=P-URL>MongoDB TSBS Benchmark</span></a> exists for it (<a
+class=P-URL><span style='border:none'>MongoDB TSBS Benchmark</span></span></a>
+exists for it (<a
 href="https://github.com/timescale/tsbs/blob/master/docs/mongo.md"><span
-class=P-URL>https://github.com/timescale/tsbs/blob/master/docs/mongo.md</span></a>).</span></p>
+class=P-URL><span style='border:none'>https://github.com/timescale/tsbs/blob/master/docs/mongo.md</span></span></a>).</span></p>
 
 <p class=MsoNormal><span lang=EN-US>Refer to: <a
 href="https://www.mongodb.com/docs/manual/core/timeseries-collections"><span
-class=P-URL>https://www.mongodb.com/docs/manual/core/timeseries-collections</span></a>.</span></p>
+class=P-URL><span style='border:none'>https://www.mongodb.com/docs/manual/core/timeseries-collections</span></span></a>.</span></p>
 
 </div>
 
