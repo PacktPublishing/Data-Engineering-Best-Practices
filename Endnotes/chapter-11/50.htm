@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -24,33 +21,13 @@
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:106%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:underline;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
+span.EndnoteTextChar
+	{mso-style-name:"Endnote Text Char";
+	mso-style-link:"Endnote Text";
+	font-family:"Arial",sans-serif;}
 p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	{mso-style-name:"L - Numbers-1";
 	margin-top:0in;
@@ -60,25 +37,41 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.EndnoteTextChar
-	{mso-style-name:"Endnote Text Char";
-	mso-style-link:"Endnote Text";
-	font-family:"Arial",sans-serif;}
-.MsoChpDefault
-	{font-size:11.0pt;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -88,40 +81,48 @@ ul
 
 <div class=WordSection1>
 
-<p class=MsoEndnoteText><span class=P-Endnote><span lang=EN style='color:black'>50<br>
-</span></span><span lang=EN><a href="https://help.sumologic.com/docs/apm"><span
-class=P-URL>Sumologic APM</span></a></span><span lang=EN-US>; 2024; Capabilities
-include:</span></p>
+<p class=MsoEndnoteText><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>50</span></span><i><sup><span lang=EN style='color:black;
+background:white'><br>
+</span></sup></i><span lang=EN><a href="https://help.sumologic.com/docs/apm"><span
+class=P-URL><span style='border:none'>Sumologic APM</span></span></a></span><span
+lang=EN-US>; 2024; Capabilities include:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Application tracing via dashboards, services lists
-and maps, spans, and queries;</span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Application tracing via dashboards, services lists and maps, spans, and
+queries;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Transaction tracing in </span><span
-class=P-Italics><span lang=EN>AWS,</span></span><span lang=EN> </span><span
-class=P-Italics><span lang=EN>Kubernetes,</span></span><span lang=EN> and other
-environments;</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Transaction tracing in </span><span class=P-Italics><span lang=EN
+style='border:none'>AWS,</span></span><span lang=EN> </span><span
+class=P-Italics><span lang=EN style='border:none'>Kubernetes,</span></span><span
+lang=EN> and other environments;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>OpenTelemetry application instrumentation for
-distributed tracing;</span></p>
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>OpenTelemetry application instrumentation for distributed tracing;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>Real user monitoring (RUM)</span></span><span
+<p class=L-Numbers-1><span lang=EN>4.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Real user monitoring (RUM)</span></span><span
 lang=EN> to discover how users interact with your business;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Configuration control for RUM data collection  to
-control trace collection processing;</span></p>
+<p class=L-Numbers-1><span lang=EN>5.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Configuration control for RUM data collection to control trace
+collection processing;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>RUM</span></span><span
+<p class=L-Numbers-1><span lang=EN>6.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>RUM</span></span><span
 lang=EN> dashboard support for visualization of performance / end-user
 activity.</span></p>
 
 <p class=MsoEndnoteText><span lang=EN-US>Refer to </span><span lang=EN><a
-href="https://help.sumologic.com/docs/apm"><span class=P-URL>https://help.sumologic.com/docs/apm</span></a></span><span
+href="https://help.sumologic.com/docs/apm"><span class=P-URL><span
+style='border:none'>https://help.sumologic.com/docs/apm</span></span></a></span><span
 lang=EN-US>.</span></p>
 
 </div>

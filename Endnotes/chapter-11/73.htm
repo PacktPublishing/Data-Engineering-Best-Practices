@@ -7,12 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -21,39 +15,15 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:underline;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
-p.P-Regular, li.P-Regular, div.P-Regular
+ p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
 p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	{mso-style-name:"L - Numbers-1";
 	margin-top:0in;
@@ -63,21 +33,41 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-.MsoChpDefault
-	{font-size:11.0pt;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -87,55 +77,63 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>73</span></span><span
-lang=EN><br>
-<a href="https://www.travis-ci.com"><span class=P-URL>Travis CI</span></a>;
-2023;</span></p>
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>73</span></span><span lang=EN><br>
+<a href="https://www.travis-ci.com"><span class=P-URL><span style='border:none'>Travis
+CI</span></span></a>; 2023;</span></p>
 
-<p class=P-Regular><span class=P-Italics><span lang=EN>Travis CI </span></span><span
-lang=EN>is a powerful tool for continuous integration.</span></p>
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>Travis
+CI </span></span><span lang=EN>is a powerful tool for continuous integration.</span></p>
 
 <p class=P-Regular><span lang=EN>Connections exist to: </span><span
-class=P-Italics><span lang=EN>Assembla,</span></span><span lang=EN> and </span><span
-class=P-Italics><span lang=EN>GitHub</span></span><span lang=EN> (as well as
-others). </span><span class=P-Italics><span lang=EN>Travis CI</span></span><span
-lang=EN> has a </span><span class=P-Italics><span lang=EN>Build Matrix</span></span><span
+class=P-Italics><span lang=EN style='border:none'>Assembla,</span></span><span
+lang=EN> and </span><span class=P-Italics><span lang=EN style='border:none'>GitHub</span></span><span
+lang=EN> (as well as others). </span><span class=P-Italics><span lang=EN
+style='border:none'>Travis CI</span></span><span lang=EN> has a </span><span
+class=P-Italics><span lang=EN style='border:none'>Build Matrix</span></span><span
 lang=EN> for parallel building. Configuration is possible via a simple syntax
-to support faster </span><span class=P-Italics><span lang=EN>time to value
-(TTV).</span></span></p>
+to support faster </span><span class=P-Italics><span lang=EN style='border:
+none'>time to value (TTV).</span></span></p>
 
 <p class=P-Regular><span lang=EN>Ability to build from clean VMs. Live build
-requests are supported as are auto-deployments for passing builds.  Pull requests
-are supported.</span></p>
+requests are supported as are auto-deployments for passing builds.</span></p>
 
-<p class=P-Regular><span lang=EN>Test can be performed on:</span></p>
+<p class=P-Regular><span lang=EN>Pull requests are also supported.  Test can be
+performed on:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>Mac;</span></span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Mac;</span></span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>Linux;</span></span><span
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Linux;</span></span><span
 lang=EN> and</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>iOS</span></span><span
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>iOS</span></span><span
 lang=EN> with additional tests performed on unique architectures like:</span></p>
 
 <p class=L-Numbers-1 style='margin-left:1.25in'><span class=P-Italics><span
-lang=EN>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN>AMD Graviton 64;</span></span></p>
+lang=EN style='border:none'>a.</span></span><span class=P-Italics><span
+lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif;border:none'>&nbsp;&nbsp;&nbsp;
+</span></span><span class=P-Italics><span lang=EN style='border:none'>AMD
+Graviton 64;</span></span></p>
 
 <p class=L-Numbers-1 style='margin-left:1.25in'><i><span lang=EN
-style='font-family:"Arial",sans-serif'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-</span></span></i><span class=P-Italics><span lang=EN>IBM PowerPC</span></span><span
+style='font-family:"Arial",sans-serif'>b.</span></i><i><span lang=EN
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp; </span></i><span
+class=P-Italics><span lang=EN style='border:none'>IBM PowerPC</span></span><span
 lang=EN>; and</span></p>
 
 <p class=L-Numbers-1 style='margin-left:1.25in'><span class=P-Italics><span
-lang=EN>c.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN>IBM Z.</span></span></p>
+lang=EN style='border:none'>c.</span></span><span class=P-Italics><span
+lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif;border:none'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=P-Italics><span lang=EN style='border:none'>IBM Z.</span></span></p>
 
 <p class=P-Regular><span lang=EN>Refer to <a href="https://www.travis-ci.com"><span
-class=P-URL>https://www.travis-ci.com</span></a>.</span></p>
+class=P-URL><span style='border:none'>https://www.travis-ci.com</span></span></a>.</span></p>
 
 </div>
 
