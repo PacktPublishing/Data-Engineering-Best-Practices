@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,13 +15,25 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- p.P-Regular, li.P-Regular, div.P-Regular
+ a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
+p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
+	{mso-style-name:"L - Numbers-1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
 span.P-URL
@@ -50,37 +59,16 @@ span.P-Endnote
 	background:white;
 	font-style:italic;
 	vertical-align:super;}
-p.L-Numbers-2, li.L-Numbers-2, div.L-Numbers-2
-	{mso-style-name:"L - Numbers-2";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:1.25in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
-	{mso-style-name:"L - Numbers-1";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:.75in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:106%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -90,97 +78,120 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span style='color:black'>71</span></span><br>
-<a href="https://www.daxpatterns.com/"><span class=P-URL><span lang=EN-US>DAX
-Patterns</span></span></a>; July 30, 2020; </p>
+<p class=P-Regular><span class=P-Endnote><span style='color:black;border:none'>71</span></span><br>
+<a href="https://www.daxpatterns.com/"><span class=P-URL><span lang=EN-US
+style='border:none'>DAX Patterns</span></span></a>; July 30, 2020;</p>
 
-<p class=P-Regular><span class=P-Italics>DAX Patterns</span> is a collection of
-<span class=P-Italics>DAX patterns</span>.  See (<span class=P-URL><a
-href="https://www.daxpatterns.com/patterns"><span style='color:blue'>https://www.daxpatterns.com/patterns</span></a></span>),
+<p class=P-Regular><span class=P-Italics><span style='border:none'>DAX Patterns</span></span>
+is a collection of <span class=P-Italics><span style='border:none'>DAX patterns.</span></span></p>
+
+<p class=P-Regular>See (<span class=P-URL><span style='border:none'><a
+href="https://www.daxpatterns.com/patterns"><span style='color:blue'>https://www.daxpatterns.com/patterns</span></a></span></span>),
 taken from the book DAX Patterns, Second Edition; by <a
 href="https://www.amazon.com/stores/Marco-Russo/author/B002BMBMIO"><span
-class=P-URL>Marco Russo</span></a> and <a
+class=P-URL><span style='border:none'>Marco Russo</span></span></a> and <a
 href="https://www.amazon.com/stores/Alberto-Ferrari/author/B003K65EPW"><span
-class=P-URL>Alberto Ferrari</span></a> (SQLBI); ISBN-10: 1735365203; ISBN-13:
-978-1735365206.</p>
+class=P-URL><span style='border:none'>Alberto Ferrari</span></span></a>
+(SQLBI); ISBN-10: 1735365203; ISBN-13: 978-1735365206.</p>
 
-<p class=P-Regular>In the book the following  business intelligence pattern
+<p class=P-Regular>In the book the following business intelligence pattern
 types are identified:</p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>ABC classification;</span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>ABC classification;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Basket analysis;</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Basket analysis;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Budget;</span></p>
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Budget;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Comparing different time periods;</span></p>
+<p class=L-Numbers-1><span lang=EN>4.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Comparing different time periods;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Cumulative total;</span></p>
+<p class=L-Numbers-1><span lang=EN>5.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Cumulative total;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Currency conversion;</span></p>
+<p class=L-Numbers-1><span lang=EN>6.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Currency conversion;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Custom time-related calculations;</span></p>
+<p class=L-Numbers-1><span lang=EN>7.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Custom time-related calculations;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Dynamic segmentation;</span></p>
+<p class=L-Numbers-1><span lang=EN>8.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Dynamic segmentation;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Events in progress;</span></p>
+<p class=L-Numbers-1><span lang=EN>9.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Events in progress;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>10.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Hierarchies;</span></p>
+<p class=L-Numbers-1><span lang=EN>10.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Hierarchies;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>11.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Like-for-like comparison;</span></p>
+<p class=L-Numbers-1><span lang=EN>11.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Like-for-like
+comparison;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>12.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Month-related calculations;</span></p>
+<p class=L-Numbers-1><span lang=EN>12.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Month-related
+calculations;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>13.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>New and returning customers;</span></p>
+<p class=L-Numbers-1><span lang=EN>13.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>New and
+returning customers;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>14.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Parameter table;</span></p>
+<p class=L-Numbers-1><span lang=EN>14.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Parameter
+table;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>15.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Parent-child hierarchies;</span></p>
+<p class=L-Numbers-1><span lang=EN>15.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Parent-child
+hierarchies;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>16.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Ranking;</span></p>
+<p class=L-Numbers-1><span lang=EN>16.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Ranking;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>17.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Related distinct count;</span></p>
+<p class=L-Numbers-1><span lang=EN>17.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Related
+distinct count;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>18.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Semi-additive calculations;</span></p>
+<p class=L-Numbers-1><span lang=EN>18.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Semi-additive
+calculations;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>19.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Standard time-related calculations;</span></p>
+<p class=L-Numbers-1><span lang=EN>19.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Standard
+time-related calculations;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>20.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Static segmentation;</span></p>
+<p class=L-Numbers-1><span lang=EN>20.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Static
+segmentation;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>21.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Survey;</span></p>
+<p class=L-Numbers-1><span lang=EN>21.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Survey;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>22.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Time patterns;</span></p>
+<p class=L-Numbers-1><span lang=EN>22.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Time
+patterns;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>23.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Transition matrix; and</span></p>
+<p class=L-Numbers-1><span lang=EN>23.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Transition
+matrix; and</span></p>
 
-<p class=L-Numbers-1><span lang=EN>24.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span lang=EN>Week-related calculations.</span></p>
+<p class=L-Numbers-1><span lang=EN>24.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span lang=EN>Week-related
+calculations.</span></p>
 
-<p class=P-Regular>Refer to <span class=P-URL><a
-href="https://www.daxpatterns.com"><span style='color:blue'>https://www.daxpatterns.com</span></a></span>.</p>
+<p class=P-Regular>Refer to <span class=P-URL><span style='border:none'><a
+href="https://www.daxpatterns.com"><span style='color:blue'>https://www.daxpatterns.com</span></a></span></span>.</p>
 
 </div>
 

@@ -18,13 +18,34 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- p.P-Regular, li.P-Regular, div.P-Regular
+ a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
+p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.L-Numbers-2, li.L-Numbers-2, div.L-Numbers-2
+	{mso-style-name:"L - Numbers-2";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:1.25in;
+	text-indent:-.25in;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
+	{mso-style-name:"L - Numbers-1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
 span.P-URL
@@ -50,42 +71,22 @@ span.P-Endnote
 	background:white;
 	font-style:italic;
 	vertical-align:super;}
-p.L-Numbers-2, li.L-Numbers-2, div.L-Numbers-2
-	{mso-style-name:"L - Numbers-2";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:1.25in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
-	{mso-style-name:"L - Numbers-1";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:.75in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
 span.P-Code
 	{mso-style-name:"P - Code";
 	font-family:Courier;
-	border:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
 	background:#D5FC79;}
+.MsoChpDefault
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:106%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -95,48 +96,54 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span style='color:black'>93<br>
-</span></span><a
+<p class=P-Regular><span class=P-Endnote><span style='color:black;border:none'>93</span></span><i><sup><span
+style='font-family:"Arial",sans-serif;color:black;background:white'><br>
+</span></sup></i><a
 href="https://zeppelin.apache.org/docs/0.9.0/interpreter/jupyter.html"><span
-class=P-URL>Jupyter Interpreter for Apache Zeppelin</span></a>; 2024;</p>
+class=P-URL><span style='border:none'>Jupyter Interpreter for Apache Zeppelin</span></span></a>;
+2024;</p>
 
-<p class=P-Regular>This <span class=P-Italics>Zeppelin</span> interpreter is a
-bridge between <span class=P-Italics>Zeppelin</span> and the <span
-class=P-Italics>Jupyter kernel engine.</span></p>
+<p class=P-Regular>This <span class=P-Italics><span style='border:none'>Zeppelin</span></span>
+interpreter is a bridge between <span class=P-Italics><span style='border:none'>Zeppelin</span></span>
+and the <span class=P-Italics><span style='border:none'>Jupyter kernel engine.</span></span></p>
 
-<p class=P-Regular>You can use <span class=P-Italics>Jupyter kernels</span> if
-you also install the correct dependencies.</p>
+<p class=P-Regular>You can use <span class=P-Italics><span style='border:none'>Jupyter
+kernels</span></span> if you also install the correct dependencies.</p>
 
 <p class=P-Regular>The steps are as follows:</p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Install the </span><span class=P-Italics><span
-lang=EN>Jupyter kernel</span></span><span lang=EN> desired from the available
-list of kernels located here: </span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Install the </span><span class=P-Italics><span lang=EN
+style='border:none'>Jupyter kernel</span></span><span lang=EN> desired from the
+available list of kernels located here: </span></p>
 
 <p class=L-Numbers-2 style='margin-left:1.0in;text-indent:0in'><span
-class=P-URL><span lang=EN><a
+class=P-URL><span lang=EN style='border:none'><a
 href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels"><span
 style='color:blue'>https://github.com/jupyter/jupyter/wiki/Jupyter-kernels</span></a></span></span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Find the kernel name by running  this command:</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Find the kernel name by running this command:</span></p>
 
 <p class=L-Numbers-2 style='margin-left:1.0in;text-indent:0in'><span
-class=P-Code><span lang=EN style='color:black'>bash jupyter kernelspec list</span></span></p>
+class=P-Code><span lang=EN style='color:black;border:none'>bash jupyter
+kernelspec list</span></span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Run the kernel by running  this command:</span></p>
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Run the kernel by running this command:</span></p>
 
 <p class=L-Numbers-2 style='margin-left:1.0in;text-indent:0in'><span
-class=P-Code><span lang=EN style='color:black'>%jupyter(kernel=kernel_name)</span></span></p>
+class=P-Code><span lang=EN style='color:black;border:none'>%jupyter(kernel=kernel_name)</span></span></p>
 
 <p class=L-Numbers-2 style='margin-left:1.0in;text-indent:0in'><span
-class=P-Code><span lang=EN style='color:black'>code</span></span></p>
+class=P-Code><span lang=EN style='color:black;border:none'>code</span></span></p>
 
 <p class=P-Regular>Refer to <a
 href="https://zeppelin.apache.org/docs/0.9.0/interpreter/jupyter.html"><span
-class=P-URL>https://zeppelin.apache.org/docs/0.9.0/interpreter/jupyter.html</span></a>.</p>
+class=P-URL><span style='border:none'>https://zeppelin.apache.org/docs/0.9.0/interpreter/jupyter.html</span></span></a>.</p>
 
 </div>
 
