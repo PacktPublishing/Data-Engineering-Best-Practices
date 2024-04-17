@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -23,42 +20,18 @@
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:underline;}
 p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
 p.L-Numbers-2, li.L-Numbers-2, div.L-Numbers-2
 	{mso-style-name:"L - Numbers-2";
 	margin-top:0in;
@@ -77,112 +50,132 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Bold
-	{mso-style-name:"P - Bold";
+span.P-URL
+	{mso-style-name:"P - URL";
 	font-family:"Calibri",sans-serif;
-	border:none;
-	background:white;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
 	font-weight:bold;
-	font-style:normal;}
-.MsoChpDefault
-	{font-size:11.0pt;}
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
 </head>
 
-<body lang=EN-GB style='word-wrap:break-word'>
+<body lang=EN-GB link=blue vlink=purple style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>24</span></span><span
-lang=EN><br>
-</span><span class=P-Italics><span lang=EN>Google Pub/Sub Dataflow Examples</span></span><span
-lang=EN>; 2024; </span></p>
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>24</span></span><span lang=EN><br>
+</span><span class=P-Italics><span lang=EN style='border:none'>Google Pub/Sub
+Dataflow Examples</span></span><span lang=EN>; 2024; </span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN><a
-href="https://cloud.google.com/dataflow/docs/kafka-dataflow"><span class=P-URL>Write
-data from Kafka to BigQuery with Dataflow</span></a>; 2023; is an example of
-how to  create and deploy a </span><span class=P-Italics><span lang=EN>Dataflow</span></span><span
-class=P-Endnote><span lang=EN style='color:black'> </span></span><span
-class=P-Endnote><b><span lang=EN-US style='color:black'>Error! Bookmark not
-defined.</span></b></span><span lang=EN> pipeline to stream from Apache Kafka
-into </span><span class=P-Italics><span lang=EN>Google BigQuery.</span></span><span
-lang=EN> See <a href="https://cloud.google.com/dataflow/docs/kafka-dataflow"><span
-class=P-URL>https://cloud.google.com/dataflow/docs/kafka-dataflow</span></a>.</span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN><a href="https://cloud.google.com/dataflow/docs/kafka-dataflow"><span
+class=P-URL><span style='border:none'>Write data from Kafka to BigQuery with
+Dataflow</span></span></a>; 2023; is an example of how to create and deploy a </span><span
+class=P-Italics><span lang=EN style='border:none'>Dataflow </span></span><span
+lang=EN>pipeline to stream from </span><span class=P-Italics>Apache Kafka</span><span
+lang=EN> into </span><span class=P-Italics><span lang=EN style='border:none'>Google
+BigQuery.</span></span><span lang=EN> See <a
+href="https://cloud.google.com/dataflow/docs/kafka-dataflow"><span class=P-URL><span
+style='border:none'>https://cloud.google.com/dataflow/docs/kafka-dataflow</span></span></a>.</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN><a
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN><a
 href="https://cloud.google.com/dataflow/docs/concepts/streaming-with-cloud-pubsub"><span
-class=P-URL>Streaming with Pub/Sub</span></a>; 2023; is an overview of </span><span
-class=P-Italics><span lang=EN>Dataflow</span></span><span class=P-Endnote><span
-lang=EN style='color:black'> </span></span><span
-class=P-Endnote><b><span lang=EN-US style='color:black'>Error! Bookmark not
-defined.</span></b></span><span lang=EN> integration with </span><span
-class=P-Italics><span lang=EN>Google Pub/Sub.</span></span><span lang=EN> You
-will want to learn about </span><span class=P-Italics><span lang=EN>Apache Beam</span></span><span
-lang=EN> concepts first.  See  <a
+class=P-URL><span style='border:none'>Streaming with Pub/Sub</span></span></a>;
+2023; is an overview of </span><span class=P-Italics><span lang=EN
+style='border:none'>Dataflow</span></span><span class=P-Endnote><span lang=EN
+style='color:black;border:none'> </span></span><span lang=EN>integration with </span><span
+class=P-Italics><span lang=EN style='border:none'>Google Pub/Sub.</span></span><span
+lang=EN> You will want to learn about </span><span class=P-Italics><span
+lang=EN style='border:none'>Apache Beam</span></span><span lang=EN> concepts
+first.  See <a
 href="https://cloud.google.com/dataflow/docs/concepts/streaming-with-cloud-pubsub"><span
-class=P-URL>https://cloud.google.com/dataflow/docs/concepts/streaming-with-cloud-pubsub</span></a>.</span></p>
+class=P-URL><span style='border:none'>https://cloud.google.com/dataflow/docs/concepts/streaming-with-cloud-pubsub</span></span></a>.</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN><a
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN><a
 href="https://cloud.google.com/dataflow/docs/guides/using-cloud-pubsub-seek"><span
-class=P-URL>Use Pub/Sub Seek with Dataflow</span></a>; 2023; </span><span
-class=P-Italics><span lang=EN>Pub/Sub Seek</span></span><span lang=EN> lets a
-consumer replay and then reprocess previously acknowledged messages or to
-acknowledge messages in bulk. Dequeuing messages is different between cloud
-provider and third party tooling.  Refer to <a
+class=P-URL><span style='border:none'>Use Pub/Sub Seek with Dataflow</span></span></a>;
+2023; </span><span class=P-Italics><span lang=EN style='border:none'>Pub/Sub
+Seek</span></span><span lang=EN> lets a consumer replay and then reprocess
+previously acknowledged messages or to acknowledge messages in bulk. Dequeuing
+messages is different between cloud provider and third party tooling.  See <a
 href="https://cloud.google.com/dataflow/docs/guides/using-cloud-pubsub-seek"><span
-class=P-URL>https://cloud.google.com/dataflow/docs/guides/using-cloud-pubsub-seek</span></a>. 
-In this example … the advice given by Google is: </span></p>
+class=P-URL><span style='border:none'>https://cloud.google.com/dataflow/docs/guides/using-cloud-pubsub-seek</span></span></a>. 
+In this example . . . the advice given by Google is: </span></p>
 
-<p class=L-Numbers-2><span lang=EN>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>that Google does not recommend direct access to </span><span
-class=P-Italics><span lang=EN>Pub/Sub Seek</span></span><span lang=EN> from
-within a </span><span class=P-Bold><span lang=EN style='color:black'>running
-Dataflow pipeline</span></span><span lang=EN>. Direct access invalidates </span><span
-class=P-Italics><span lang=EN>Dataflows watermark logic</span></span><span
-lang=EN> and does not work well with </span><span class=P-Italics><span
-lang=EN>exactly once processing.</span></span><span lang=EN> </span></p>
+<p class=L-Numbers-2><span lang=EN>a.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>that Google </span>does not recommend direct access to Pub/Sub Seek
+from within a running Dataflow pipeline. Direct <span lang=EN>access
+invalidates </span><span class=P-Italics><span lang=EN style='border:none'>Dataflows
+watermark logic</span></span><span lang=EN> and does not work well with </span><span
+class=P-Italics><span lang=EN style='border:none'>exactly once processing.</span></span><span
+lang=EN> </span></p>
 
-<p class=L-Numbers-2><span lang=EN>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>in addition, direct access conflicts with the state
-of a pipeline that incorporates processed data. </span></p>
+<p class=L-Numbers-2><span lang=EN>b.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>in addition, direct access conflicts with the state of a pipeline that
+incorporates processed data. </span></p>
 
-<p class=L-Numbers-2><span lang=EN>c.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>that Google recommends </span><span
-class=P-Italics><span lang=EN>Pub/Sub Seek</span></span><span lang=EN> be used
-with this workflow:</span></p>
-
-<p class=L-Numbers-2 style='margin-left:1.75in;text-indent:-1.75in'><span
-lang=EN><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>make a snapshot of the subscription;</span></p>
+<p class=L-Numbers-2><span lang=EN>c.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>that Google recommends </span><span class=P-Italics><span lang=EN
+style='border:none'>Pub/Sub Seek</span></span><span lang=EN> be used with this
+workflow:</span></p>
 
 <p class=L-Numbers-2 style='margin-left:1.75in;text-indent:-1.75in'><span
-lang=EN><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>drain the subscription messages in Dataflow; and</span></p>
+lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span lang=EN>i.</span><span lang=EN style='font-size:7.0pt;font-family:
+"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=EN>make
+a snapshot of the subscription;</span></p>
 
 <p class=L-Numbers-2 style='margin-left:1.75in;text-indent:-1.75in'><span
-lang=EN><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>iii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>resubmit the pipeline.</span></p>
+lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span lang=EN>ii.</span><span lang=EN style='font-size:7.0pt;font-family:
+"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=EN>drain
+the subscription messages in Dataflow; and</span></p>
+
+<p class=L-Numbers-2 style='margin-left:1.75in;text-indent:-1.75in'><span
+lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span lang=EN>iii.</span><span lang=EN style='font-size:7.0pt;
+font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>resubmit the pipeline.</span></p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
 

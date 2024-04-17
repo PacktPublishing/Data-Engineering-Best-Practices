@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,13 +15,8 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
+ a:link, span.MsoHyperlink
+	{color:blue;
 	text-decoration:underline;}
 p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
@@ -32,32 +24,7 @@ p.P-Regular, li.P-Regular, div.P-Regular
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
-p.L-Numbers-2, li.L-Numbers-2, div.L-Numbers-2
-	{mso-style-name:"L - Numbers-2";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:1.25in;
-	text-indent:-.25in;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
 p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
@@ -69,81 +36,101 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-.MsoChpDefault
-	{font-size:11.0pt;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
 </head>
 
-<body lang=EN-GB style='word-wrap:break-word'>
+<body lang=EN-GB link=blue vlink=purple style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>16</span></span><span
-lang=EN><br>
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>16</span></span><span lang=EN><br>
 </span><a name="_Hlk158052777"></a><a
 href="https://nightlies.apache.org/flink/flink-docs-master/docs/concepts/overview/"><span
-class=P-URL><span lang=EN-US>&quot;Apache Flink Concept with Examples&quot;</span></span></a><span
-lang=EN-US>; 2024;</span></p>
+class=P-URL><span lang=EN-US style='border:none'>&quot;Apache Flink Concept
+with Examples&quot;</span></span></a><span lang=EN-US>; 2024;</span></p>
 
-<p class=P-Regular><span class=P-Italics><span lang=EN>Apache Flink</span></span><span
-class=P-Endnote><span lang=EN style='color:black'> </span></span><span
-lang=EN-US>needs to be explained with a straightforward introduction to its APIs
-for managing state and time.</span></p>
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>Apache
+Flink</span></span><span class=P-Endnote><span lang=EN style='color:black;
+border:none'> </span></span><span lang=EN-US>needs to be explained with a
+straightforward introduction to its APIs for managing state and time.</span></p>
 
 <p class=P-Regular><span lang=EN-US>You will need to know:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>How to implement streaming data processing
-pipelines;</span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>How to implement streaming data processing pipelines;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>How Flink manages state;</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>How Flink manages state;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>How to use event time to compute accurate
-analytics;</span></p>
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>How to use event time to compute accurate analytics;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>How to build event-driven applications on a
-continuous stream; and</span></p>
+<p class=L-Numbers-1><span lang=EN>4.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>How to build event-driven applications on a continuous stream; and</span></p>
 
-<p class=L-Numbers-1><span lang=EN>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>How to provide fault-tolerant, stateful stream
-processing with Flink's </span><span class=P-Italics><span lang=EN>exactly once
-semantics.</span></span><span lang=EN>  This means that each incoming event
-affects the final results exactly once even with machine / software failure,
-there's no duplicate data and no data goes unprocessed.</span></p>
+<p class=L-Numbers-1><span lang=EN>5.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>How to provide fault-tolerant, stateful stream processing with Flink's </span><span
+class=P-Italics><span lang=EN style='border:none'>exactly once semantics (t</span></span><span
+lang=EN>his means that each incoming event affects the final results exactly
+once even with machine / software failure, there's no duplicate data and no
+data goes unprocessed).</span></p>
 
-<p class=P-Regular><span lang=EN-US>… See: </span><span lang=EN><a
+<p class=P-Regular><span lang=EN-US>See: </span><span lang=EN><a
 href="https://flink.apache.org/2018/02/28/an-overview-of-end-to-end-exactly-once-processing-in-apache-flink-with-apache-kafka-too"><span
-class=P-URL><span lang=EN-US>An Overview of End-to-End Exactly-Once Processing
-in Apache Flink (with Apache Kafka, too!)</span></span></a></span><span
-lang=EN-US> (</span><span class=P-URL><span lang=EN><a
-href="https://flink.apache.org/2018/02/28/an-overview-of-end-to-end-exactly-once-processing-in-apache-flink-with-apache-kafka-too"><span
-style='color:blue'>https://flink.apache.org/2018/02/28/an-overview-of-end-to-end-exactly-once-processing-in-apache-flink-with-apache-kafka-too</span></a></span></span><span
+class=P-URL><span lang=EN-US style='border:none'>An Overview of End-to-End
+Exactly-Once Processing in Apache Flink (with Apache Kafka, too!)</span></span></a></span><span
+lang=EN-US> (</span><span class=P-URL><span lang=EN style='border:none'><a
+href="https://flink.apache.org/2018/02/28/an-overview-of-end-to-end-exactly-once-processing-in-apache-flink-with-apache-kafka-too">https://flink.apache.org/2018/02/28/an-overview-of-end-to-end-exactly-once-processing-in-apache-flink-with-apache-kafka-too</a></span></span><span
 lang=EN-US>) for an explanation of Flink's </span><span class=P-Italics><span
-lang=EN-US>exactly</span></span><span class=P-Italics><span lang=EN-US> </span></span><span
-class=P-Italics><span lang=EN-US>once semantics</span></span><span lang=EN> in
-action.</span></p>
+lang=EN-US style='border:none'>exactly once semantics</span></span><span
+lang=EN> in action.</span></p>
 
 <p class=P-Regular><span lang=EN-US>Refer also to </span><span lang=EN><a
 href="https://nightlies.apache.org/flink/flink-docs-master/docs/concepts/overview"><span
-class=P-URL><span lang=EN-US>https://nightlies.apache.org/flink/flink-docs-master/docs/concepts/overview</span></span></a>.</span></p>
+class=P-URL><span lang=EN-US style='border:none'>https://nightlies.apache.org/flink/flink-docs-master/docs/concepts/overview</span></span></a>.</span></p>
 
 </div>
 

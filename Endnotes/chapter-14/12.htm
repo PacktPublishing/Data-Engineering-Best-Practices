@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,13 +15,8 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
+ a:link, span.MsoHyperlink
+	{color:blue;
 	text-decoration:underline;}
 p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
@@ -32,25 +24,9 @@ p.P-Regular, li.P-Regular, div.P-Regular
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
 p.IMG-Caption, li.IMG-Caption, div.IMG-Caption
 	{mso-style-name:"IMG - Caption";
 	margin-top:6.0pt;
@@ -58,7 +34,7 @@ p.IMG-Caption, li.IMG-Caption, div.IMG-Caption
 	margin-bottom:12.0pt;
 	margin-left:0in;
 	text-align:center;
-	line-height:107%;
+	line-height:106%;
 	font-size:10.0pt;
 	font-family:"Aptos",sans-serif;
 	color:red;
@@ -70,39 +46,59 @@ p.Diagram, li.Diagram, div.Diagram
 	margin-bottom:6.0pt;
 	margin-left:0in;
 	text-align:center;
-	line-height:107%;
+	line-height:106%;
 	page-break-after:avoid;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-.MsoChpDefault
-	{font-size:11.0pt;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
 </head>
 
-<body lang=EN-GB style='word-wrap:break-word'>
+<body lang=EN-GB link=blue vlink=purple style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>12</span></span><span
-lang=EN><br>
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>12</span></span><span lang=EN><br>
 <a href="https://www.confluent.io/use-case/database"><span class=P-URL><span
-lang=EN-US>&quot;Utilize Real-Time, Enriched Data in Your Cloud Database&quot;</span></span></a>;
-2023; </span></p>
+lang=EN-US style='border:none'>&quot;Utilize Real-Time, Enriched Data in Your
+Cloud Database&quot;</span></span></a>; 2023; </span></p>
 
 <p class=P-Regular><span lang=EN>In this article you can find an example of
 data streaming to cloud databases you can build with real-time data. Connect,
@@ -110,42 +106,43 @@ process, and govern mission-critical, changing data for databases.</span></p>
 
 <p class=P-Regular><span lang=EN>You can build streaming data pipelines to
 cloud databases using APIs and a drag-and-drop UI, with fully managed
-connectors to implement </span><span class=P-Italics><span lang=EN>change data
-capture (CDC),</span></span><span lang=EN> and continuous SQL-based processing.</span></p>
+connectors to implement </span><span class=P-Italics><span lang=EN
+style='border:none'>change data capture (CDC),</span></span><span lang=EN> and
+continuous SQL-based processing.</span></p>
 
-<p class=P-Regular><span lang=EN>See </span><span class=P-Italics><span
-lang=EN>Figure 14.2 - 2023 Confluent Kafka Pipelines Example</span></span><span
-lang=EN> below:</span></p>
+<p class=P-Regular>See <span class=P-Italics><span style='border:none'>Figure
+14.2 - 2023 Confluent Kafka Pipelines Example</span></span> below:</p>
 
-<p class=Diagram><span lang=EN><img border=0 width=423 height=367 id="Picture 1"
-src="12_files/image001.jpg" alt="2023 Confluent Kafka Pipelines Example"></span></p>
+<p class=Diagram><img border=0 width=423 height=367 id="Picture 1"
+src="12_files/image001.jpg" alt="2023 Confluent Kafka Pipelines Example"></p>
 
-<p class=IMG-Caption><span lang=EN>Figure 14.2 - 2023 Confluent Kafka Pipelines
-Example</span></p>
+<p class=IMG-Caption>Figure 14.2 - 2023 Confluent Kafka Pipelines Example</p>
 
 <p class=P-Regular><span lang=EN>Refer to <a
-href="https://www.confluent.io/use-case/database"><span class=P-URL>https://www.confluent.io/use-case/database</span></a>,
+href="https://www.confluent.io/use-case/database"><span class=P-URL><span
+style='border:none'>https://www.confluent.io/use-case/database</span></span></a>,
 and </span></p>
 
 <p class=P-Regular><span lang=EN><a
 href="https://assets.confluent.io/m/225e319de71e71ce/original/20230823-WP-Data_Pipelines.pdf"><span
-class=P-URL>Use Case Implementation: Streaming Data Pipelines to Databases</span></a></span><span
-class=P-URL><span lang=EN style='color:windowtext'> (</span></span><span
-class=P-URL><span lang=EN><a
-href="https://www.confluent.io/resources/white-paper/streaming-pipelines-to-databases-use-case-implementation"><span
-style='color:blue'>https://www.confluent.io/resources/white-paper/streaming-pipelines-to-databases-use-case-implementation</span></a></span></span><span
+class=P-URL><span style='border:none'>Use Case Implementation: Streaming Data
+Pipelines to Databases</span></span></a></span><span class=P-URL><span lang=EN
+style='color:windowtext;border:none'> (</span></span><span class=P-URL><span
+lang=EN style='border:none'><a
+href="https://www.confluent.io/resources/white-paper/streaming-pipelines-to-databases-use-case-implementation">https://www.confluent.io/resources/white-paper/streaming-pipelines-to-databases-use-case-implementation</a></span></span><span
 lang=EN>) </span></p>
 
 <p class=P-Regular><span lang=EN>With webcast training: <a
 href="https://event.on24.com/wcc/r/4190212/E2DE32B23459CC840DDAD5D5DD2C7ADC"><span
-class=P-URL>https://event.on24.com/wcc/r/4190212/E2DE32B23459CC840DDAD5D5DD2C7ADC</span></a>.
+class=P-URL><span style='border:none'>https://event.on24.com/wcc/r/4190212/E2DE32B23459CC840DDAD5D5DD2C7ADC</span></span></a>.
 </span></p>
 
 <p class=P-Regular><span lang=EN>As well as github demo-database-modernization:
 <a href="https://github.com/confluentinc/demo-database-modernization"><span
-class=P-URL>Stream Data to Cloud Databases with Confluent</span></a> (<a
+class=P-URL><span style='border:none'>Stream Data to Cloud Databases with
+Confluent</span></span></a> (<a
 href="https://github.com/confluentinc/demo-database-modernization"><span
-class=P-URL>https://github.com/confluentinc/demo-database-modernization</span></a>).</span></p>
+class=P-URL><span style='border:none'>https://github.com/confluentinc/demo-database-modernization</span></span></a>).</span></p>
 
 </div>
 

@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,13 +15,8 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
+ a:link, span.MsoHyperlink
+	{color:blue;
 	text-decoration:underline;}
 p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
@@ -32,25 +24,9 @@ p.P-Regular, li.P-Regular, div.P-Regular
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
 p.L-Numbers-2, li.L-Numbers-2, div.L-Numbers-2
 	{mso-style-name:"L - Numbers-2";
 	margin-top:0in;
@@ -69,96 +45,126 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-.MsoChpDefault
-	{font-size:11.0pt;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
 </head>
 
-<body lang=EN-GB style='word-wrap:break-word'>
+<body lang=EN-GB link=blue vlink=purple style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>23</span></span><span
-lang=EN><br>
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>23</span></span><span lang=EN><br>
 <a
 href="https://cloud.google.com/dataflow/docs/concepts/streaming-with-cloud-pubsub"><span
-class=P-URL>Google Pub/Sub Dataflow</span></a>; by Google; 2024; </span></p>
+class=P-URL><span style='border:none'>Google Pub/Sub Dataflow</span></span></a>;
+by Google; 2024; </span></p>
 
-<p class=P-Regular><span class=P-Italics><span lang=EN>Google Pub/Sub Dataflow</span></span><span
-lang=EN> requires some explanation since the Google documentation is very
-technical, involves open source implementations (aka </span><span
-class=P-Italics><span lang=EN>Apache Beam</span></span><span lang=EN>) and
-requires a lot of pre knowledge of </span><span class=P-Italics><span lang=EN>GCPs</span></span><span
-lang=EN> software infrastructure.</span></p>
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>Google
+Pub/Sub Dataflow</span></span><span lang=EN> requires some explanation since
+the Google documentation is very technical, involves open source
+implementations (aka </span><span class=P-Italics><span lang=EN
+style='border:none'>Apache Beam</span></span><span lang=EN>) and requires a lot
+of pre knowledge of </span><span class=P-Italics><span lang=EN
+style='border:none'>GCPs</span></span><span lang=EN> software infrastructure.</span></p>
 
 <p class=P-Regular><span lang=EN>It requires </span><span class=P-Italics><span
-lang=EN>DataFlow,</span></span><span lang=EN> </span><span class=P-Italics><span
-lang=EN>Pub/Sub,</span></span><span lang=EN> </span><span class=P-Italics><span
-lang=EN>Beam</span></span><span lang=EN> and the </span><span class=P-Italics><span
-lang=EN>IO connector</span></span><span lang=EN> as described below:</span></p>
+lang=EN style='border:none'>DataFlow,</span></span><span lang=EN> </span><span
+class=P-Italics><span lang=EN style='border:none'>Pub/Sub,</span></span><span
+lang=EN> </span><span class=P-Italics><span lang=EN style='border:none'>Beam</span></span><span
+lang=EN> and the </span><span class=P-Italics><span lang=EN style='border:none'>IO
+connector</span></span><span lang=EN> as described below:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>A <a href="https://cloud.google.com/dataflow/docs"><span
-class=P-URL>Dataflow</span></a> (see </span><span class=P-URL><span lang=EN><a
-href="https://cloud.google.com/dataflow/docs"><span style='color:blue'>https://cloud.google.com/dataflow/docs</span></a></span></span><span
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>A <a href="https://cloud.google.com/dataflow/docs"><span class=P-URL><span
+style='border:none'>Dataflow</span></span></a> (see </span><span class=P-URL><span
+lang=EN style='border:none'><a href="https://cloud.google.com/dataflow/docs">https://cloud.google.com/dataflow/docs</a></span></span><span
 lang=EN>) implementation of the <a
-href="https://cloud.google.com/pubsub/docs/overview"><span class=P-URL>Googles
-Pub/Sub</span></a> of the <a
+href="https://cloud.google.com/pubsub/docs/overview"><span class=P-URL><span
+style='border:none'>Googles Pub/Sub</span></span></a> of the <a
 href="https://tray.io/documentation/connectors/service/google-cloud-pub-sub"><span
-class=P-URL>I/O connector</span></a>:</span></p>
+class=P-URL><span style='border:none'>I/O connector</span></span></a>:</span></p>
 
-<p class=L-Numbers-2><span lang=EN>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>See: <a
-href="https://cloud.google.com/pubsub/docs/overview"><span class=P-URL>https://cloud.google.com/pubsub/docs/overview</span></a>;
+<p class=L-Numbers-2><span lang=EN>a.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>See: <a href="https://cloud.google.com/pubsub/docs/overview"><span
+class=P-URL><span style='border:none'>https://cloud.google.com/pubsub/docs/overview</span></span></a>;
 and</span></p>
 
-<p class=L-Numbers-2><span lang=EN>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>See: </span><span class=P-URL><span lang=EN><a
-href="https://tray.io/documentation/connectors/service/google-cloud-pub-sub"><span
-style='color:blue'>https://tray.io/documentation/connectors/service/google-cloud-pub-sub</span></a></span></span><span
+<p class=L-Numbers-2><span lang=EN>b.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>See: </span><span class=P-URL><span lang=EN style='border:none'><a
+href="https://tray.io/documentation/connectors/service/google-cloud-pub-sub">https://tray.io/documentation/connectors/service/google-cloud-pub-sub</a></span></span><span
 lang=EN>. </span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>And </span><span class=P-Italics><span lang=EN>Pub/Sub</span></span><span
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>And </span><span class=P-Italics><span lang=EN style='border:none'>Pub/Sub</span></span><span
 lang=EN> is a scalable, event ingestion / delivery system by </span><span
-class=P-Italics><span lang=EN>Google</span></span><span lang=EN>. </span><span
-class=P-Italics><span lang=EN>Dataflow</span></span><span lang=EN> complements </span><span
-class=P-Italics><span lang=EN>Pub/Sub</span></span><span lang=EN> scalable,
-at-least-once delivery model with message deduplication, exactly-once
-processing, and generation of a </span><span class=P-URL><span lang=EN><a
+class=P-Italics><span lang=EN style='border:none'>Google</span></span><span
+lang=EN>. </span><span class=P-Italics><span lang=EN style='border:none'>Dataflow</span></span><span
+lang=EN> complements </span><span class=P-Italics><span lang=EN
+style='border:none'>Pub/Sub</span></span><span lang=EN> scalable, at-least-once
+delivery model with message deduplication, exactly-once processing, and
+generation of a </span><span class=P-URL><span lang=EN style='border:none'><a
+href="https://stackoverflow.com/questions/42169004/what-is-the-watermark-heuristic-for-pubsubio-running-on-gcd">data
+watermark</a></span></span><span lang=EN> (<a
 href="https://stackoverflow.com/questions/42169004/what-is-the-watermark-heuristic-for-pubsubio-running-on-gcd"><span
-style='color:blue'>data watermark</span></a></span></span><span lang=EN> (<a
-href="https://stackoverflow.com/questions/42169004/what-is-the-watermark-heuristic-for-pubsubio-running-on-gcd"><span
-class=P-URL>https://stackoverflow.com/questions/42169004/what-is-the-watermark-heuristic-for-pubsubio-running-on-gcd</span></a>)
+class=P-URL><span style='border:none'>https://stackoverflow.com/questions/42169004/what-is-the-watermark-heuristic-for-pubsubio-running-on-gcd</span></span></a>)
 from timestamped events. </span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Available as a  </span><span class=P-Italics><span
-lang=EN>Dataflow</span></span><span lang=EN>, when you write a data pipeline
-using the <a href="https://beam.apache.org"><span class=P-URL>Apache Beam SDK</span></a>
-(</span><span class=P-URL><span lang=EN><a href="https://beam.apache.org"><span
-style='color:blue'>https://beam.apache.org</span></a></span></span><span
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Available as a </span><span class=P-Italics><span style='border:none'>D</span></span><span
+class=P-Italics><span lang=EN style='border:none'>ataflow</span></span><span
+lang=EN>, when you write a data pipeline using the <a
+href="https://beam.apache.org"><span class=P-URL><span style='border:none'>Apache
+Beam SDK</span></span></a> (</span><span class=P-URL><span lang=EN
+style='border:none'><a href="https://beam.apache.org">https://beam.apache.org</a></span></span><span
 lang=EN>) and then execute the pipeline code on the </span><span
-class=P-Italics><span lang=EN>Dataflow</span></span><span lang=EN> service. </span></p>
+class=P-Italics><span lang=EN style='border:none'>Dataflow</span></span><span
+lang=EN> service. </span></p>
 
 <p class=P-Regular><span lang=EN>Refer to <a
 href="https://cloud.google.com/dataflow/docs/concepts/streaming-with-cloud-pubsub"><span
-class=P-URL>https://cloud.google.com/dataflow/docs/concepts/streaming-with-cloud-pubsub</span></a>.</span></p>
+class=P-URL><span style='border:none'>https://cloud.google.com/dataflow/docs/concepts/streaming-with-cloud-pubsub</span></span></a>.</span></p>
 
 </div>
 
