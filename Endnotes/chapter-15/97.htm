@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,15 +15,34 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- p.P-Regular, li.P-Regular, div.P-Regular
+ a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
+p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
+p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
+	{mso-style-name:"L - Numbers-1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.P-Quote, li.P-Quote, div.P-Quote
+	{mso-style-name:"P - Quote";
+	margin:0in;
+	line-height:115%;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
 span.P-URL
 	{mso-style-name:"P - URL";
 	font-family:"Calibri",sans-serif;
@@ -50,51 +66,24 @@ span.P-Endnote
 	background:white;
 	font-style:italic;
 	vertical-align:super;}
-p.L-Numbers-2, li.L-Numbers-2, div.L-Numbers-2
-	{mso-style-name:"L - Numbers-2";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:1.25in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
-	{mso-style-name:"L - Numbers-1";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:.75in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-p.P-Quote, li.P-Quote, div.P-Quote
-	{mso-style-name:"P - Quote";
-	margin:0in;
-	line-height:115%;
-	font-size:10.5pt;
-	font-family:"Arial",sans-serif;
-	font-style:italic;}
 span.P-Bold
 	{mso-style-name:"P - Bold";
 	font-family:"Calibri",sans-serif;
-	border:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
 	background:white;
 	font-weight:bold;
 	font-style:normal;}
+.MsoChpDefault
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:106%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -104,56 +93,62 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span style='color:black'>97<br>
-</span></span><a
+<p class=P-Regular><span class=P-Endnote><span style='color:black;border:none'>97</span></span><i><sup><span
+style='font-family:"Arial",sans-serif;color:black;background:white'><br>
+</span></sup></i><a
 href="https://liangjunjiang.medium.com/zeppelin-v-s-jupyter-a-comparison-from-a-different-perspective-p-8ab336a5b9e6"><span
-class=P-URL>&quot;Zeppelin v.s. Jupyter - a Comparison from a Different
-Perspective&quot;</span></a>; by <a href="https://liangjunjiang.medium.com"><span
-class=P-URL>Liangjun Jiang</span></a> (<span class=P-URL>https://liangjunjiang.medium.com</span>);
-May 29, 2020;</p>
+class=P-URL><span style='border:none'>&quot;Zeppelin v.s. Jupyter - a
+Comparison from a Different Perspective&quot;</span></span></a>; by <a
+href="https://liangjunjiang.medium.com"><span class=P-URL><span
+style='border:none'>Liangjun Jiang</span></span></a> (<span class=P-URL><span
+style='border:none'>https://liangjunjiang.medium.com</span></span>); May 29,
+2020;</p>
 
 <p class=P-Regular>In this article the author askes a few questions related to
 these two notebook types: </p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Who are you … are you a </span><span
-class=P-Italics><span lang=EN>Data Scientist</span></span><span lang=EN> with
-first-hand tool experience, or an engineer deploying tools for the </span><span
-class=P-Italics><span lang=EN>Data Scientist,</span></span><span lang=EN> or a
-software engineer?</span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Who are you? Are you a </span><span class=P-Italics><span lang=EN
+style='border:none'>Data Scientist</span></span><span lang=EN> with first-hand
+tool experience, or an engineer deploying tools for the </span><span
+class=P-Italics><span lang=EN style='border:none'>Data Scientist,</span></span><span
+lang=EN> or a software engineer?</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>What do you use this tool for, as a data
-exploratory tool to interact with data … or to develop data applications?</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>What do you use this tool for, as a data exploratory tool to interact
+with data, or to develop data applications?</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>How trained are you with ither tool, are you good
-enough to give expert- or at least some degree of professional suggestion?</span></p>
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>How trained are you with ither tool, are you good enough to give
+expert- or at least some degree of professional suggestion?</span></p>
 
 <p class=P-Regular>The project mission statements for these notebooks are
 identified as follows and it is pointed out that the mission statements don't
 lead you to a clear understanding of the capability overlaps:</p>
 
 <p class=P-Quote><span lang=EN>&quot;</span><span class=P-Bold><i><span
-lang=EN style='font-size:11.0pt;line-height:115%;color:black'>Project Jupyter</span></i></span><span
-lang=EN>:  exists to develop open-source software, open-standards, and services
-for interactive computing across dozens of programming languages.&quot; -
-Source: </span><span class=P-URL><span lang=EN style='font-style:normal'><a
-href="https://jupyter.org"><span style='color:blue'>https://jupyter.org</span></a></span></span><span
-lang=EN>.</span></p>
+lang=EN style='font-size:11.0pt;line-height:115%;color:black;border:none'>Project
+Jupyter:</span></i></span><span lang=EN> exists to develop open-source
+software, open-standards, and services for interactive computing across dozens
+of programming languages.&quot; - Source: </span><span class=P-URL><span
+lang=EN style='border:none;font-style:normal'><a href="https://jupyter.org"><span
+style='color:blue'>https://jupyter.org</span></a></span></span><span lang=EN>.</span></p>
 
 <p class=P-Quote><span lang=EN>&quot;</span><span class=P-Bold><i><span
-lang=EN style='font-size:11.0pt;line-height:115%;color:black'>Apache Zeppelin</span></i></span><span
-lang=EN>: web-based notebook that enables data-driven, interactive data
-analytics and collaborative documents with SQL, Scala and more.&quot; - Source:
-<a href="https://zeppelin.apache.org"><span class=P-URL><span style='font-style:
-normal'>https://zeppelin.apache.org</span></span></a>.</span></p>
+lang=EN style='font-size:11.0pt;line-height:115%;color:black;border:none'>Apache
+Zeppelin</span></i></span><span lang=EN>: web-based notebook that enables
+data-driven, interactive data analytics and collaborative documents with SQL,
+Scala and more.&quot; - Source: <a href="https://zeppelin.apache.org"><span
+class=P-URL><span style='border:none;font-style:normal'>https://zeppelin.apache.org</span></span></a>.</span></p>
 
-<p class=P-Quote><span lang=EN>&nbsp;</span></p>
+<p class=P-Quote>&nbsp;</p>
 
 <p class=P-Regular>Refer to <a
 href="https://liangjunjiang.medium.com/zeppelin-v-s-jupyter-a-comparison-from-a-different-perspective-p-8ab336a5b9e6"><span
-class=P-URL>https://liangjunjiang.medium.com/zeppelin-v-s-jupyter-a-comparison-from-a-different-perspective-p-8ab336a5b9e6</span></a>.</p>
+class=P-URL><span style='border:none'>https://liangjunjiang.medium.com/zeppelin-v-s-jupyter-a-comparison-from-a-different-perspective-p-8ab336a5b9e6</span></span></a>.</p>
 
 </div>
 
