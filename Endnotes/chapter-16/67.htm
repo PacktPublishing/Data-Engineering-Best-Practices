@@ -1,0 +1,153 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+ /* Style Definitions */
+ p.P-Regular, li.P-Regular, div.P-Regular
+	{mso-style-name:"P - Regular";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:105%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
+	{mso-style-name:"L - Numbers-1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:105%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:119.5pt 1.5in 131.75pt 1.5in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-GB link="#467886" vlink="#96607D" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>67</span></span><i><sup><span lang=EN style='color:black;
+background:white'><br>
+</span></sup></i><span lang=EN><a href="https://github.com/stanfordnlp/dspy"><span
+class=P-URL><span style='border:none'>DSPy</span></span></a>; 2024;</span></p>
+
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>DSPy</span></span><span
+lang=EN> is a framework for algorithmically optimizing </span><span
+class=P-Italics><span lang=EN style='border:none'>language model (LM)</span></span><span
+lang=EN> prompts and weights. It is used when </span><span class=P-Italics><span
+lang=EN style='border:none'>LM</span></span><span lang=EN>s are called one or
+more times within a </span><span class=P-Italics><span lang=EN
+style='border:none'>MLOps</span></span><span lang=EN> pipeline. The process to
+build a complex system without </span><span class=P-Italics><span lang=EN
+style='border:none'>DSPy</span></span><span lang=EN>, involves: </span></p>
+
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Breaking the problem down into steps;</span></p>
+
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Creating </span><span class=P-Italics><span lang=EN style='border:none'>prompts</span></span><span
+lang=EN> for your </span><span class=P-Italics><span lang=EN style='border:
+none'>LM</span></span><span lang=EN> until each step works well in isolation; </span></p>
+
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Tweaking each step to work well as a unified solution; </span></p>
+
+<p class=L-Numbers-1><span lang=EN>4.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Generating synthetic examples to tune each of the steps; and </span></p>
+
+<p class=L-Numbers-1><span lang=EN>5.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Using these examples to break down the grand LM into finer tuned
+smaller LMs in order to cut costs. </span></p>
+
+<p class=P-Regular><span lang=EN>Tunning and LM is hard, time consuming and
+subject to change as pipeline, your LM, or your data change since </span><span
+class=P-Italics><span lang=EN style='border:none'>prompts</span></span><span
+lang=EN> (or finetuning) is always in flux. </span><span class=P-Italics><span
+lang=EN style='border:none'>DSPy</span></span><span lang=EN> does two things:</span></p>
+
+<p class=L-Numbers-1 style='margin-left:55.5pt;text-indent:-19.5pt'>1.<span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span lang=EN>It separates program flow from the parameters (aka </span><span
+class=P-Italics><span lang=EN style='border:none'>LM prompts</span></span><span
+lang=EN> and </span><span class=P-Italics><span lang=EN style='border:none'>LM
+weights</span></span><span lang=EN>) for each step; and</span></p>
+
+<p class=L-Numbers-1 style='margin-left:55.5pt;text-indent:-19.5pt'>2.<span
+style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span lang=EN>Adds new </span><span class=P-Italics><span lang=EN
+style='border:none'>optimizers,</span></span><span lang=EN> which are
+themselves LM driven algorithms to tune the </span><span class=P-Italics><span
+lang=EN style='border:none'>LM prompts</span></span><span lang=EN> and/or the </span><span
+class=P-Italics><span lang=EN style='border:none'>LM Weights</span></span><span
+lang=EN> made with your </span><span class=P-Italics><span lang=EN
+style='border:none'>LM</span></span><span lang=EN> calls for the target metric
+that you want to maximize.</span></p>
+
+<p class=P-Regular><span lang=EN>Refer to <a
+href="https://github.com/stanfordnlp/dspy"><span class=P-URL><span
+style='border:none'>https://github.com/stanfordnlp/dspy</span></span></a>.</span></p>
+
+</div>
+
+</body>
+
+</html>
