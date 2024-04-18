@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,39 +15,15 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:underline;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
-p.P-Regular, li.P-Regular, div.P-Regular
+ p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
 p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	{mso-style-name:"L - Numbers-1";
 	margin-top:0in;
@@ -60,21 +33,43 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
 .MsoChpDefault
-	{font-size:11.0pt;}
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -84,42 +79,49 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>116<br>
-</span></span><span lang=EN><a
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>116</span></span><i><sup><span lang=EN style='color:black;
+background:white'><br>
+</span></sup></i><span lang=EN><a
 href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-the-what-if-tool-for-cloud-ai-platform-models"><span
-class=P-URL>Googles What-If Tool</span></a>; by Google; 2024;</span></p>
+class=P-URL><span style='border:none'>Googles What-If Tool</span></span></a>;
+by Google; 2024;</span></p>
 
 <p class=P-Regular><span lang=EN>The </span><span class=P-Italics><span
-lang=EN>What-If Tool</span></span><span lang=EN> is an open source tool: <a
+lang=EN style='border:none'>What-If Tool</span></span><span lang=EN> is an open
+source tool: <a
 href="file:///I:/.shortcut-targets-by-id/16U88hfntVPGFufp-XMgfFxBZWjhwKrm4/Packt_DataEngineeringBook/Chapters/Chapter%2016/‘Github%20What%20if%20Tool’"><span
-class=P-URL>Github What if Tool</span></a> (<a
-href="https://pair-code.github.io/what-if-tool"><span class=P-URL>https://pair-code.github.io/what-if-tool</span></a>)
-used to understand ML model performance.  It was produced by the Google </span><span
-class=P-Italics><span lang=EN>Tensorflow</span></span><span lang=EN> team as an
-interactive UI to visualize datasets and better understand outputs of </span><span
-class=P-Italics><span lang=EN>TensorFlow models.</span></span><span lang=EN> It
-has grown to support more.</span></p>
+class=P-URL><span style='border:none'>Github What if Tool</span></span></a> (<a
+href="https://pair-code.github.io/what-if-tool"><span class=P-URL><span
+style='border:none'>https://pair-code.github.io/what-if-tool</span></span></a>)
+used to understand ML model performance. It was produced by the Google </span><span
+class=P-Italics><span lang=EN style='border:none'>Tensorflow</span></span><span
+lang=EN> team as an interactive UI to visualize datasets and better understand
+outputs of </span><span class=P-Italics><span lang=EN style='border:none'>TensorFlow
+models.</span></span><span lang=EN> It has grown to support more. The </span><span
+class=P-Italics><span lang=EN style='border:none'>What-If Tool</span></span><span
+lang=EN> supports: </span></p>
 
-<p class=P-Regular><span lang=EN>The </span><span class=P-Italics><span
-lang=EN>What-If Tool</span></span><span lang=EN> supports: </span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Binary classification;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Binary classification;</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Multi-class classification; and </span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Multi-class classification; and </span></p>
-
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Regression tasks.</span></p>
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Regression tasks.</span></p>
 
 <p class=P-Regular><span lang=EN>Note that </span><span class=P-Italics><span
-lang=EN>fairness optimization</span></span><span lang=EN> is available only
-with </span><span class=P-Italics><span lang=EN>binary classification</span></span><span
-lang=EN> models.</span></p>
+lang=EN style='border:none'>fairness optimization</span></span><span lang=EN>
+is available only with </span><span class=P-Italics><span lang=EN
+style='border:none'>binary classification</span></span><span lang=EN> models.</span></p>
 
 <p class=P-Regular><span lang=EN>Refer to <a
 href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-the-what-if-tool-for-cloud-ai-platform-models"><span
-class=P-URL>https://cloud.google.com/blog/products/ai-machine-learning/introducing-the-what-if-tool-for-cloud-ai-platform-models</span></a>.</span></p>
+class=P-URL><span style='border:none'>https://cloud.google.com/blog/products/ai-machine-learning/introducing-the-what-if-tool-for-cloud-ai-platform-models</span></span></a>.</span></p>
 
 </div>
 

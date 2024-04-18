@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,39 +15,15 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:underline;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
-p.P-Regular, li.P-Regular, div.P-Regular
+ p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
 p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	{mso-style-name:"L - Numbers-1";
 	margin-top:0in;
@@ -60,21 +33,43 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
 .MsoChpDefault
-	{font-size:11.0pt;}
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -84,122 +79,142 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>69<br>
-</span></span><span lang=EN><span class=P-URL>&quot;What are Embeddings?&quot;</span>;
-by <a href="https://vickiboykis.com"><span class=P-URL>Vicki Boykis</span></a> (</span><span
-class=P-URL><span lang=EN>https://vickiboykis.com</span></span><span lang=EN>) (a
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>69</span></span><i><sup><span lang=EN style='color:black;
+background:white'><br>
+</span></sup></i><span class=P-URL><span lang=EN style='border:none'>&quot;What
+are Embeddings?&quot;</span></span><span lang=EN>; by <a
+href="https://vickiboykis.com"><span class=P-URL><span style='border:none'>Vicki
+Boykis</span></span></a> (</span><span class=P-URL><span lang=EN
+style='border:none'>https://vickiboykis.com</span></span><span lang=EN>) (a
 machine learning engineer working on <a href="https://www.viberary.com/about"><span
-class=P-URL>Viberary</span></a> (</span><span class=P-URL><span lang=EN>https://www.viberary.com/about</span></span><span
-lang=EN>) - a side project for semantic search); February 11, 2024. </span></p>
+class=P-URL><span style='border:none'>Viberary</span></span></a> (</span><span
+class=P-URL><span lang=EN style='border:none'>https://www.viberary.com/about</span></span><span
+lang=EN>) - a side project for semantic search); February 11, 2024. The author
+of this article maintains interests in: </span></p>
 
-<p class=P-Regular><span lang=EN>The author of this article maintains interests
-in: </span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN><a href="https://en.wikipedia.org/wiki/Recommender_system"><span
+class=P-URL><span style='border:none'>Recommender systems,</span></span></a> (<a
+href="https://en.wikipedia.org/wiki/Recommender_system"><span class=P-URL><span
+style='border:none'>https://en.wikipedia.org/wiki/Recommender_system</span></span></a>);</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN><a
-href="https://en.wikipedia.org/wiki/Recommender_system"><span class=P-URL>Recommender
-systems,</span></a> (<a href="https://en.wikipedia.org/wiki/Recommender_system"><span
-class=P-URL>https://en.wikipedia.org/wiki/Recommender_system</span></a>);</span></p>
+<p class=L-Numbers-1><span class=P-Italics><span lang=EN style='border:none'>2.</span></span><span
+class=P-Italics><span lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif;
+border:none'>&nbsp;&nbsp;&nbsp; </span></span><span class=P-Italics><span
+lang=EN style='border:none'>Information retrieval;</span></span></p>
 
-<p class=L-Numbers-1><span class=P-Italics><span lang=EN>2.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN>Information retrieval;</span></span></p>
-
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>MLOps;</span></span><span
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>MLOps;</span></span><span
 lang=EN> and </span></p>
 
-<p class=L-Numbers-1><span class=P-Italics><span lang=EN>4.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN>Engineering best practices. </span></span></p>
+<p class=L-Numbers-1><span class=P-Italics><span lang=EN style='border:none'>4.</span></span><span
+class=P-Italics><span lang=EN style='font-size:7.0pt;font-family:"Times New Roman",serif;
+border:none'>&nbsp;&nbsp;&nbsp; </span></span><span class=P-Italics><span
+lang=EN style='border:none'>Engineering best practices. </span></span></p>
 
 <p class=P-Regular><span lang=EN>Embeddings are numerical representations of </span><span
-class=P-Italics><span lang=EN>machine learning features</span></span><span
-lang=EN> inputs to </span><span class=P-Italics><span lang=EN>deep learning
-(DL)</span></span><span lang=EN> models. Classic types  are: </span></p>
+class=P-Italics><span lang=EN style='border:none'>machine learning features</span></span><span
+lang=EN> inputs to </span><span class=P-Italics><span lang=EN style='border:
+none'>deep learning (DL)</span></span><span lang=EN> models.Classic types are:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>Term Frequency</span></span><span
-lang=EN> / </span><span class=P-Italics><span lang=EN>Inverse Document Frequency</span></span><span
-lang=EN> (e.g., </span><span class=P-Italics><span lang=EN>TF-IDF</span></span><span
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Term Frequency</span></span><span
+lang=EN> / </span><span class=P-Italics><span lang=EN style='border:none'>Inverse
+Document Frequency</span></span><span lang=EN> (e.g., </span><span
+class=P-Italics><span lang=EN style='border:none'>TF-IDF</span></span><span
 lang=EN>) (<a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf"><span
-class=P-URL>https://en.wikipedia.org/wiki/Tf%E2%80%93idf</span></a>);</span></p>
+class=P-URL><span style='border:none'>https://en.wikipedia.org/wiki/Tf%E2%80%93idf</span></span></a>);</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>Principal Component Analysis
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Principal Component Analysis
 (PCA) </span></span><span lang=EN>(<a
 href="https://en.wikipedia.org/wiki/Principal_component_analysis"><span
-class=P-URL>https://en.wikipedia.org/wiki/Principal_component_analysis</span></a>);
+class=P-URL><span style='border:none'>https://en.wikipedia.org/wiki/Principal_component_analysis</span></span></a>);
 </span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>One-Hot Encoding </span></span><span
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>One-Hot Encoding </span></span><span
 lang=EN>(<a
 href="https://www.kaggle.com/code/marcinrutecki/one-hot-encoding-everything-you-need-to-know"><span
-class=P-URL>https://www.kaggle.com/code/marcinrutecki/one-hot-encoding-everything-you-need-to-know</span></a>)
+class=P-URL><span style='border:none'>https://www.kaggle.com/code/marcinrutecki/one-hot-encoding-everything-you-need-to-know</span></span></a>)
 ;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>Latent Dirichlet Allocation
+<p class=L-Numbers-1><span lang=EN>4.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Latent Dirichlet Allocation
 (LDA) </span></span><span lang=EN>(<a
 href="https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation"><span
-class=P-URL>https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation</span></a>);
+class=P-URL><span style='border:none'>https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation</span></span></a>);
 and </span></p>
 
-<p class=L-Numbers-1><span lang=EN>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Italics><span lang=EN>Latent Semantics Analysis
+<p class=L-Numbers-1><span lang=EN>5.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Latent Semantics Analysis
 (LSA) </span></span><span lang=EN>(<a
 href="https://en.wikipedia.org/wiki/Latent_semantic_analysis"><span
-class=P-URL>https://en.wikipedia.org/wiki/Latent_semantic_analysis</span></a>).</span></p>
+class=P-URL><span style='border:none'>https://en.wikipedia.org/wiki/Latent_semantic_analysis</span></span></a>).</span></p>
 
 <p class=P-Regular><span lang=EN>These classic types of embedding are tools in
 machine learning systems as ways to compress and then understand large amounts
 of text. However, the context that can be retained is limited as with:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Googles </span><span class=P-Italics><span lang=EN>Word2Vec</span></span><span
-lang=EN> (<a href="https://en.wikipedia.org/wiki/Word2vec"><span class=P-URL>https://en.wikipedia.org/wiki/Word2vec</span></a>)
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Googles </span><span class=P-Italics><span lang=EN style='border:none'>Word2Vec</span></span><span
+lang=EN> (<a href="https://en.wikipedia.org/wiki/Word2vec"><span class=P-URL><span
+style='border:none'>https://en.wikipedia.org/wiki/Word2vec</span></span></a>)
 enabled models to understand word meaning rather than just </span><span
-class=P-Italics><span lang=EN>n-gram</span></span><span lang=EN> (<a
-href="https://en.wikipedia.org/wiki/N-gram"><span class=P-URL>https://en.wikipedia.org/wiki/N-gram</span></a>)
-or statistical token relationships. </span></p>
+class=P-Italics><span lang=EN style='border:none'>n-gram</span></span><span
+lang=EN> (<a href="https://en.wikipedia.org/wiki/N-gram"><span class=P-URL><span
+style='border:none'>https://en.wikipedia.org/wiki/N-gram</span></span></a>) or
+statistical token relationships. </span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Googles </span><span class=P-Italics><span lang=EN>BERT</span></span><span
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Googles </span><span class=P-Italics><span lang=EN style='border:none'>BERT</span></span><span
 lang=EN> (<a href="https://en.wikipedia.org/wiki/BERT_(language_model)"><span
-class=P-URL>https://en.wikipedia.org/wiki/BERT_(language_model)</span></a>);</span></p>
+class=P-URL><span style='border:none'>https://en.wikipedia.org/wiki/BERT_(language_model)</span></span></a>);</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Other </span><span class=P-Italics><span lang=EN>Transformer
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Other </span><span class=P-Italics><span lang=EN style='border:none'>Transformer
 Architectures;</span></span><span lang=EN> (<a
 href="https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)"><span
-class=P-URL>https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)</span></a>);</span></p>
+class=P-URL><span style='border:none'>https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)</span></span></a>);</span></p>
 
-<p class=L-Numbers-1><span lang=EN>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Various </span><span class=P-Italics><span lang=EN>Transfer
+<p class=L-Numbers-1><span lang=EN>4.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Various </span><span class=P-Italics><span lang=EN style='border:none'>Transfer
 Learning </span></span><span lang=EN>(<a
-href="https://en.wikipedia.org/wiki/Transfer_learning"><span class=P-URL>https://en.wikipedia.org/wiki/Transfer_learning</span></a>)
+href="https://en.wikipedia.org/wiki/Transfer_learning"><span class=P-URL><span
+style='border:none'>https://en.wikipedia.org/wiki/Transfer_learning</span></span></a>)
 approaches; and </span></p>
 
-<p class=L-Numbers-1><span lang=EN>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>The newest </span><span class=P-Italics><span
-lang=EN>GenAI</span></span><span lang=EN> </span><span class=P-Italics><span
-lang=EN>LLMs</span></span><span class=P-URL><span lang=EN> </span></span><span
-lang=EN>(<a
+<p class=L-Numbers-1><span lang=EN>5.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>The newest </span><span class=P-Italics><span lang=EN style='border:
+none'>GenAI</span></span><span lang=EN> </span><span class=P-Italics><span
+lang=EN style='border:none'>LLMs</span></span><span class=P-URL><span lang=EN
+style='border:none'> </span></span><span lang=EN>(<a
 href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence"><span
-class=P-URL>https://en.wikipedia.org/wiki/Generative_artificial_intelligence</span></a>)</span><span
-class=P-Italics><span lang=EN>.</span></span></p>
+class=P-URL><span style='border:none'>https://en.wikipedia.org/wiki/Generative_artificial_intelligence</span></span></a>)</span><span
+class=P-Italics><span lang=EN style='border:none'>.</span></span></p>
 
 <p class=P-Regular><span lang=EN>The above model types enable </span><span
-class=P-Italics><span lang=EN>embedding</span></span><span lang=EN> use to grow;
-since they are foundational as an ML data structure.</span></p>
-
-<p class=P-Regular><span lang=EN>This article provides you with an
-understanding of embeddings, the history, and usage patterns in industry.</span></p>
+class=P-Italics><span lang=EN style='border:none'>embedding</span></span><span
+lang=EN> use to grow; since they are foundational as an ML data structure. This
+article provides you with an understanding of embeddings, the history, and
+usage patterns in industry.</span></p>
 
 <p class=P-Regular><span lang=EN>Refer to <a
 href="https://raw.githubusercontent.com/veekaybee/what_are_embeddings/main/embeddings.pdf"
-target="_blank"><span class=P-URL>https://raw.githubusercontent.com</span></a>.</span></p>
+target="_blank"><span class=P-URL><span style='border:none'>https://raw.githubusercontent.com</span></span></a>.</span></p>
 
 </div>
 

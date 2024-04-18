@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,46 +15,15 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:underline;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
-p.P-Regular, li.P-Regular, div.P-Regular
+ p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
-span.P-Bold
-	{mso-style-name:"P - Bold";
-	font-family:"Calibri",sans-serif;
-	border:none;
-	background:white;
-	font-weight:bold;
-	font-style:normal;}
 p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	{mso-style-name:"L - Numbers-1";
 	margin-top:0in;
@@ -67,21 +33,51 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
+span.P-Bold
+	{mso-style-name:"P - Bold";
+	font-family:"Calibri",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-weight:bold;
+	font-style:normal;}
 .MsoChpDefault
-	{font-size:11.0pt;}
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -91,94 +87,104 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>60<br>
-</span></span><span lang=EN><a href="https://docs.ragas.io/en/stable/index.html"><span
-class=P-URL><span lang=EN-US>&quot;Ragas Synthetic Test Data Generation&quot;</span></span></a></span><span
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>60</span></span><i><sup><span lang=EN style='color:black;
+background:white'><br>
+</span></sup></i><span lang=EN><a
+href="https://docs.ragas.io/en/stable/index.html"><span class=P-URL><span
+lang=EN-US style='border:none'>&quot;Ragas Synthetic Test Data Generation&quot;</span></span></a></span><span
 lang=EN-US>; by Ragas.io; 2024;</span></p>
 
-<p class=P-Regular><span class=P-Italics><span lang=EN>Ragas</span></span><span
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>Ragas</span></span><span
 lang=EN> is an open standard for developers to obtain continual learning in
 their RAG applications. With Ragas, you would be able to:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Synthetically
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>Synthetically
 generate a diverse test dataset</span></span><span lang=EN> to evaluate your </span><span
-class=P-Italics><span lang=EN>RAG</span></span><span lang=EN> solution.</span></p>
+class=P-Italics><span lang=EN style='border:none'>RAG</span></span><span
+lang=EN> solution.</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Use LLM
-assisted evaluation metrics</span></span><span lang=EN> to objectively measure </span><span
-class=P-Italics><span lang=EN>RAG</span></span><span lang=EN> performance.</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>Use LLM assisted
+evaluation metrics</span></span><span lang=EN> to objectively measure </span><span
+class=P-Italics><span lang=EN style='border:none'>RAG</span></span><span
+lang=EN> performance.</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Monitor
-quality</span></span><span lang=EN> for </span><span class=P-Italics><span
-lang=EN>RAG</span></span><span lang=EN> using smaller models for actionable
-insights like number of hallucinations in the generated answer.</span></p>
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>Monitor quality</span></span><span
+lang=EN> for </span><span class=P-Italics><span lang=EN style='border:none'>RAG</span></span><span
+lang=EN> using smaller models for actionable insights like number of
+hallucinations in the generated answer.</span></p>
 
-<p class=L-Numbers-1><span lang=EN>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Use insights</span></span><span
+<p class=L-Numbers-1><span lang=EN>4.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>Use insights</span></span><span
 lang=EN> to improve your application in your </span><span class=P-Italics><span
-lang=EN>MLOps</span></span><span lang=EN> lifecycle.</span></p>
+lang=EN style='border:none'>MLOps</span></span><span lang=EN> lifecycle.</span></p>
 
-<p class=P-Regular><span class=P-Italics><span lang=EN>R</span></span><span
-class=P-Italics><span lang=EN-US>agas</span></span><span lang=EN-US> understands
-that a </span><span class=P-Italics><span lang=EN>GenAI</span></span><span
-lang=EN> </span><span lang=EN-US>evaluation dataset should include the types of
-questions encountered in production, including questions of varying difficulty
-levels. </span><span class=P-Italics><span lang=EN-US>LLM</span></span><span
-lang=EN-US>s are not good at creating samples with statistical diversity,
-rather they tend to fall into niche lines of thought.</span></p>
-
-<p class=P-Regular><span lang=EN-US>Questions with different characteristics are
-required and these are driven by: reasoning, conditioning, context, etc.</span></p>
-
-<p class=P-Regular><span lang=EN-US>Questions need to be created from knowledge
-found in a provided set of documents (and we add distilled into a </span><span
-class=P-Italics><span lang=EN>knowledge base</span></span><span
-class=P-Italics><span lang=EN-US>.</span></span><span lang=EN-US>  This way
-test coverage for the entire domain is possible.  </span><span class=P-Italics><span
-lang=EN-US>Ragas</span></span><span lang=EN-US> offers metrics tailored to each
-component of your RAG pipeline in isolation.</span></p>
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>R</span></span><span
+class=P-Italics><span lang=EN-US style='border:none'>agas</span></span><span
+lang=EN-US> understands that a </span><span class=P-Italics><span lang=EN
+style='border:none'>GenAI</span></span><span lang=EN> </span><span lang=EN-US>evaluation
+dataset should include the types of questions encountered in production,
+including questions of varying difficulty levels. </span><span class=P-Italics><span
+lang=EN-US style='border:none'>LLM</span></span><span lang=EN-US>s are not good
+at creating samples with statistical diversity, rather they tend to fall into
+niche lines of thought. Questions with different characteristics are required
+and these are driven by: reasoning, conditioning, context, etc. Questions need
+to be created from knowledge found in a provided set of documents (and we add
+distilled into a </span><span class=P-Italics><span lang=EN style='border:none'>knowledge
+base</span></span>. This <span lang=EN-US>way test coverage for the entire
+domain is possible. </span><span class=P-Italics><span lang=EN-US
+style='border:none'>Ragas</span></span><span lang=EN-US> offers metrics
+tailored to each component of your RAG pipeline in isolation.</span></p>
 
 <p class=P-Regular><span lang=EN-US>These are as follows: </span></p>
 
-<p class=L-Numbers-1><span lang=EN>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Faithfulness</span></span><span
-lang=EN>:  How factually accurate are the generated answers;</span></p>
+<p class=L-Numbers-1><span lang=EN>5.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>Faithfulness</span></span><span
+lang=EN>:&nbsp; How factually accurate are the generated answers;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Answer
-relevancy</span></span><span lang=EN>: How relevant is the generated answer to
-the question;</span></p>
+<p class=L-Numbers-1><span lang=EN>6.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>Answer relevancy</span></span><span
+lang=EN>: How relevant is the generated answer to the question;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Context
-recall</span></span><span lang=EN>: Can the solution retrieve all the
-information required to answer the question;</span></p>
+<p class=L-Numbers-1><span lang=EN>7.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>Context recall</span></span><span
+lang=EN>: Can the solution retrieve all the information required to answer the
+question;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Context
-precision</span></span><span lang=EN>: Measures the signal to noise ration of
-retrieved information;</span></p>
+<p class=L-Numbers-1><span lang=EN>8.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>Context precision</span></span><span
+lang=EN>: Measures the signal to noise ration of retrieved information;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Context
-relevancy</span></span><span lang=EN>: Gauges the relevancy of retrieved
-context, based on the question and information context ; and</span></p>
+<p class=L-Numbers-1><span lang=EN>9.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>Context relevancy</span></span><span
+lang=EN>: Gauges the relevancy of retrieved context, based on the question and
+information context ; and</span></p>
 
-<p class=L-Numbers-1><span lang=EN>10.<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>Context
-entity recall</span></span><span lang=EN>: Gives the measure of recall of the
-retrieved context, based on the number of entities present in both </span><span
-class=P-Italics><span lang=EN>ground truths</span></span><span lang=EN> and </span><span
-class=P-Italics><span lang=EN>contexts</span></span><span lang=EN> relative to
-the number of entities present in the </span><span class=P-Italics><span
-lang=EN>ground truths.</span></span></p>
+<p class=L-Numbers-1><span lang=EN>10.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp; </span><span class=P-Bold><span
+lang=EN style='color:black;border:none'>Context entity recall</span></span><span
+lang=EN>: Gives the measure of recall of the retrieved context, based on the
+number of entities present in both </span><span class=P-Italics><span lang=EN
+style='border:none'>ground truths</span></span><span lang=EN> and </span><span
+class=P-Italics><span lang=EN style='border:none'>contexts</span></span><span
+lang=EN> relative to the number of entities present in the </span><span
+class=P-Italics><span lang=EN style='border:none'>ground truths.</span></span></p>
 
 <p class=P-Regular><span lang=EN-US>Refer to </span><span lang=EN><a
 href="https://docs.ragas.io/en/stable/index.html"><span class=P-URL><span
-lang=EN-US>https://docs.ragas.io/en/stable/index.html</span></span></a></span><span
+lang=EN-US style='border:none'>https://docs.ragas.io/en/stable/index.html</span></span></a></span><span
 lang=EN-US>.</span></p>
 
 </div>
