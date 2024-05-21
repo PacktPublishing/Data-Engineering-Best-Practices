@@ -15,13 +15,16 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- p.P-Regular, li.P-Regular, div.P-Regular
+ a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
 p.P-Quote, li.P-Quote, div.P-Quote
@@ -31,6 +34,16 @@ p.P-Quote, li.P-Quote, div.P-Quote
 	font-size:10.5pt;
 	font-family:"Arial",sans-serif;
 	font-style:italic;}
+p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
+	{mso-style-name:"L - Numbers-1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
+	line-height:105%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
 span.P-URL
 	{mso-style-name:"P - URL";
 	font-family:"Calibri",sans-serif;
@@ -61,31 +74,19 @@ span.P-Keyword
 span.P-Italics
 	{mso-style-name:"P - Italics";
 	font-family:"Arial",sans-serif;
-	border:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
 	font-style:italic;}
-p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
-	{mso-style-name:"L - Numbers-1";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:.75in;
-	text-indent:-.25in;
-	line-height:106%;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:106%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -95,113 +96,131 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span style='color:black'>3<br>
-</span></span><a
+<p class=P-Regular><span class=P-Endnote><span style='color:black;border:none'>3</span></span><i><sup><span
+style='color:black;background:white'><br>
+</span></sup></i><a
 href="https://towardsdatascience.com/something-of-thought-in-llm-prompting-an-overview-of-structured-llm-reasoning-70302752b390"><span
-class=P-URL>&quot;Prompt engineering frameworks designed to enhance LLM
-reasoning&quot;</span></a> By Yunzhe Wang, Towards Data Science; September 16,
-2023; </p>
+class=P-URL><span style='border:none'>&quot;Something-of-Thoughts in LLM
+Prompting: An Overview of Structured LLM Reasoning&quot;</span></span></a> By
+Yunzhe Wang, Towards Data Science; September 16, 2023; </p>
 
 <p class=P-Regular>&nbsp;</p>
 
 <p class=P-Quote>In the age of smartphones and smart homes, imagine an <span
-class=P-Italics><span style='font-style:normal'>AI</span></span> that doesn't
-merely follow instructions, but actually thinks, grappling with complex logic
-just as we do. Sounds like science fiction, doesn't it? However, if you've
-played around with <span class=P-Italics><span style='font-style:normal'>ChatGPT</span></span>,
-you've likely witnessed this astonishing capability firsthand. </p>
+class=P-Italics><span style='border:none;font-style:normal'>AI</span></span>
+that doesn't merely follow instructions, but actually thinks, grappling with
+complex logic just as we do. Sounds like science fiction, doesn't it? However,
+if you've played around with <span class=P-Italics><span style='border:none;
+font-style:normal'>ChatGPT</span></span>, you've likely witnessed this
+astonishing capability firsthand. </p>
 
 <p class=P-Quote>Even Hector Levesque, a renowned figure in AI reasoning, was
 so astounded that he once commented to AI legend Geoffrey Hinton: </p>
 
 <p class=P-Quote>&nbsp;</p>
 
-<p class=P-Quote><span class=P-URL><span style='font-style:normal'><a
+<p class=P-Quote><span class=P-URL><span style='border:none;font-style:normal'><a
 href="https://www.youtube.com/watch?v=rGgGOccMEiY&amp;t=1598s">&quot;How can
-such a stupid method (referring to neural networks) can deal with reasoning?&quot;</a></span></span>
-(<span class=P-URL><span style='font-style:normal'><a
-href="https://www.youtube.com/watch?v=rGgGOccMEiY&amp;t=1598s">https://www.youtube.com/watch?v=rGgGOccMEiY&amp;t=1598s</a></span></span>).
+such a stupid method (referring to neural networks) can deal with
+reasoning?&quot;</a></span></span> (<span class=P-URL><span style='border:none;
+font-style:normal'><a href="https://www.youtube.com/watch?v=rGgGOccMEiY&amp;t=1598s">https://www.youtube.com/watch?v=rGgGOccMEiY&amp;t=1598s</a></span></span>).
 </p>
 
 <p class=P-Quote>&nbsp;</p>
 
 <p class=P-Quote>While this story underscores the monumental advances in AI,
 the true essence of these advancements is found in the intricate dance of Large
-Language Models (<span class=P-Italics><span style='font-style:normal'>LLMs</span></span>)
-with reasoning. The entry point to this dance is <span class=P-Italics><span
-style='font-style:normal'>Prompt Engineering</span></span> - the art and
-science of optimizing the textual input provided to <span class=P-Italics><span
-style='font-style:normal'>LLMs</span></span> to elicit desired outputs. At its
-core, it's about understanding the intricacies of how language models like <span
-class=P-Italics><b><span style='font-style:normal'>ChatGPT</span></b></span>, <span
-class=P-Italics><b><span style='font-style:normal'>Bard</span></b></span>, <span
-class=P-Italics><b><span style='font-style:normal'>Claude</span></b></span>, <span
-class=P-Italics><b><span style='font-style:normal'>LLama</span></b></span>, and
-others respond to different prompts, and then leveraging this knowledge to
+Language Models (<span class=P-Italics><span style='border:none;font-style:
+normal'>LLMs</span></span>) with reasoning. The entry point to this dance is <span
+class=P-Italics><span style='border:none;font-style:normal'>Prompt Engineering</span></span>
+- the art and science of optimizing the textual input provided to <span
+class=P-Italics><span style='border:none;font-style:normal'>LLMs</span></span>
+to elicit desired outputs. At its core, it's about understanding the
+intricacies of how language models like <span class=P-Italics><b><span
+style='border:none;font-style:normal'>ChatGPT</span></b></span>, <span
+class=P-Italics><b><span style='border:none;font-style:normal'>Bard</span></b></span>,
+<span class=P-Italics><b><span style='border:none;font-style:normal'>Claude</span></b></span>,
+<span class=P-Italics><b><span style='border:none;font-style:normal'>LLama</span></b></span>,
+and others respond to different prompts, and then leveraging this knowledge to
 achieve specific results. Think of <span class=P-Italics><span
-style='font-style:normal'>LLMs</span></span> as vast knowledge reservoirs. The
-way you phrase your question or statement (the prompt) determines how you tap
-into that reservoir. Just as humans might offer different answers based on how
-a question is posed, <span class=P-Italics><span style='font-style:normal'>LLMs</span></span>
-too can give varied responses based on the input. In this article, you'll
-receive a concise overview of various prompt engineering frameworks designed to
-enhance <span class=P-Italics><span style='font-style:normal'>LLM</span></span>
+style='border:none;font-style:normal'>LLMs</span></span> as vast knowledge
+reservoirs. The way you phrase your question or statement (the prompt)
+determines how you tap into that reservoir. Just as humans might offer
+different answers based on how a question is posed, <span class=P-Italics><span
+style='border:none;font-style:normal'>LLMs</span></span> too can give varied
+responses based on the input. In this article, you'll receive a concise
+overview of various prompt engineering frameworks designed to enhance <span
+class=P-Italics><span style='border:none;font-style:normal'>LLM</span></span>
 reasoning, including:</p>
 
 <p class=P-Quote>&nbsp;</p>
 
-<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US>1.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN-US>Chain-of-Thought (</span></span><span
+<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US style='border:none'>1.</span></span><span
+class=P-Italics><span lang=EN-US style='font-size:7.0pt;line-height:105%;
+font-family:"Times New Roman",serif;border:none'>&nbsp;&nbsp;&nbsp; </span></span><span
+class=P-Italics><span lang=EN-US style='border:none'>Chain-of-Thought (</span></span><span
 class=P-Keyword><span lang=EN-US style='color:black'>CoT</span></span><span
-class=P-Italics><span lang=EN-US>)</span></span><span lang=EN-US> See <a
-href="https://arxiv.org/abs/2201.11903%7dp"><span class=P-URL>https://arxiv.org/abs/2201.11903</span></a>;</span></p>
+class=P-Italics><span lang=EN-US style='border:none'>)</span></span><span
+lang=EN-US> See <a href="https://arxiv.org/abs/2201.11903%7dp"><span
+class=P-URL><span style='border:none'>https://arxiv.org/abs/2201.11903</span></span></a>;</span></p>
 
-<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US>2.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN-US>Chain-of-Thought-Self-Consistency (</span></span><span
-class=P-Keyword><span lang=EN-US style='color:black'>CoT-SC</span></span><span
-class=P-Italics><span lang=EN-US>)</span></span><span lang=EN-US> See <a
-href="https://arxiv.org/abs/2203.11171"><span class=P-URL>https://arxiv.org/abs/2203.11171</span></a>;</span></p>
+<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US style='border:none'>2.</span></span><span
+class=P-Italics><span lang=EN-US style='font-size:7.0pt;line-height:105%;
+font-family:"Times New Roman",serif;border:none'>&nbsp;&nbsp;&nbsp; </span></span><span
+class=P-Italics><span lang=EN-US style='border:none'>Chain-of-Thought-Self-Consistency
+(</span></span><span class=P-Keyword><span lang=EN-US style='color:black'>CoT-SC</span></span><span
+class=P-Italics><span lang=EN-US style='border:none'>)</span></span><span
+lang=EN-US> See <a href="https://arxiv.org/abs/2203.11171"><span class=P-URL><span
+style='border:none'>https://arxiv.org/abs/2203.11171</span></span></a>;</span></p>
 
-<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US>3.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN-US>Tree-of-Thoughts (</span></span><span
+<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US style='border:none'>3.</span></span><span
+class=P-Italics><span lang=EN-US style='font-size:7.0pt;line-height:105%;
+font-family:"Times New Roman",serif;border:none'>&nbsp;&nbsp;&nbsp; </span></span><span
+class=P-Italics><span lang=EN-US style='border:none'>Tree-of-Thoughts (</span></span><span
 class=P-Keyword><span lang=EN-US style='color:black'>ToT</span></span><span
-class=P-Italics><span lang=EN-US>)</span></span><span lang=EN-US> See <a
-href="https://arxiv.org/abs/2305.10601"><span class=P-URL>https://arxiv.org/abs/2305.10601</span></a>;</span></p>
+class=P-Italics><span lang=EN-US style='border:none'>)</span></span><span
+lang=EN-US> See <a href="https://arxiv.org/abs/2305.10601"><span class=P-URL><span
+style='border:none'>https://arxiv.org/abs/2305.10601</span></span></a>;</span></p>
 
-<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US>4.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN-US>Graph-of-Thoughts (</span></span><span
+<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US style='border:none'>4.</span></span><span
+class=P-Italics><span lang=EN-US style='font-size:7.0pt;line-height:105%;
+font-family:"Times New Roman",serif;border:none'>&nbsp;&nbsp;&nbsp; </span></span><span
+class=P-Italics><span lang=EN-US style='border:none'>Graph-of-Thoughts (</span></span><span
 class=P-Keyword><span lang=EN-US style='color:black'>GoT</span></span><span
-class=P-Italics><span lang=EN-US>)</span></span><span lang=EN-US> See <a
-href="https://arxiv.org/abs/2308.09687"><span class=P-URL>https://arxiv.org/abs/2308.09687</span></a>;</span></p>
+class=P-Italics><span lang=EN-US style='border:none'>)</span></span><span
+lang=EN-US> See <a href="https://arxiv.org/abs/2308.09687"><span class=P-URL><span
+style='border:none'>https://arxiv.org/abs/2308.09687</span></span></a>;</span></p>
 
-<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US>5.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN-US>Algorithm-of-Thoughts (</span></span><span
+<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US style='border:none'>5.</span></span><span
+class=P-Italics><span lang=EN-US style='font-size:7.0pt;line-height:105%;
+font-family:"Times New Roman",serif;border:none'>&nbsp;&nbsp;&nbsp; </span></span><span
+class=P-Italics><span lang=EN-US style='border:none'>Algorithm-of-Thoughts (</span></span><span
 class=P-Keyword><span lang=EN-US style='color:black'>AoT</span></span><span
-class=P-Italics><span lang=EN-US>)</span></span><span lang=EN-US> See <a
-href="https://arxiv.org/abs/2308.10379"><span class=P-URL>https://arxiv.org/abs/2308.10379</span></a>;</span></p>
+class=P-Italics><span lang=EN-US style='border:none'>)</span></span><span
+lang=EN-US> See <a href="https://arxiv.org/abs/2308.10379"><span class=P-URL><span
+style='border:none'>https://arxiv.org/abs/2308.10379</span></span></a>;</span></p>
 
-<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US>6.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN-US>Skeleton-of-Thought (</span></span><span
+<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US style='border:none'>6.</span></span><span
+class=P-Italics><span lang=EN-US style='font-size:7.0pt;line-height:105%;
+font-family:"Times New Roman",serif;border:none'>&nbsp;&nbsp;&nbsp; </span></span><span
+class=P-Italics><span lang=EN-US style='border:none'>Skeleton-of-Thought (</span></span><span
 class=P-Keyword><span lang=EN-US style='color:black'>SoT</span></span><span
-class=P-Italics><span lang=EN-US>)</span></span><span lang=EN-US> See <a
-href="https://arxiv.org/abs/2307.15337"><span class=P-URL>https://arxiv.org/abs/2307.15337</span></a>;</span></p>
+class=P-Italics><span lang=EN-US style='border:none'>)</span></span><span
+lang=EN-US> See <a href="https://arxiv.org/abs/2307.15337"><span class=P-URL><span
+style='border:none'>https://arxiv.org/abs/2307.15337</span></span></a>;</span></p>
 
-<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US>7.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><span
-class=P-Italics><span lang=EN-US>Program-of-Thoughts (</span></span><span
+<p class=L-Numbers-1><span class=P-Italics><span lang=EN-US style='border:none'>7.</span></span><span
+class=P-Italics><span lang=EN-US style='font-size:7.0pt;line-height:105%;
+font-family:"Times New Roman",serif;border:none'>&nbsp;&nbsp;&nbsp; </span></span><span
+class=P-Italics><span lang=EN-US style='border:none'>Program-of-Thoughts (</span></span><span
 class=P-Keyword><span lang=EN-US style='color:black'>PoT</span></span><span
-class=P-Italics><span lang=EN-US>)</span></span><span lang=EN-US> See <a
-href="https://arxiv.org/abs/2211.12588"><span class=P-URL>https://arxiv.org/abs/2211.12588</span></a>;</span></p>
+class=P-Italics><span lang=EN-US style='border:none'>)</span></span><span
+lang=EN-US> See <a href="https://arxiv.org/abs/2211.12588"><span class=P-URL><span
+style='border:none'>https://arxiv.org/abs/2211.12588</span></span></a>;</span></p>
 
 <p class=P-Regular>Refer to <a
 href="https://towardsdatascience.com/something-of-thought-in-llm-prompting-an-overview-of-structured-llm-reasoning-70302752b390"><span
-class=P-URL>https://towardsdatascience.com/something-of-thought-in-llm-prompting-an-overview-of-structured-llm-reasoning-70302752b390#</span></a>.</p>
+class=P-URL><span style='border:none'>https://towardsdatascience.com/something-of-thought-in-llm-prompting-an-overview-of-structured-llm-reasoning-70302752b390#</span></span></a>.</p>
 
 </div>
 
