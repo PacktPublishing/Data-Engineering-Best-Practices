@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,13 +15,25 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- p.P-Regular, li.P-Regular, div.P-Regular
+ a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
+p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
+	{mso-style-name:"L - Numbers-1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
 span.P-URL
@@ -50,37 +59,16 @@ span.P-Endnote
 	background:white;
 	font-style:italic;
 	vertical-align:super;}
-p.L-Numbers-2, li.L-Numbers-2, div.L-Numbers-2
-	{mso-style-name:"L - Numbers-2";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:1.25in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
-	{mso-style-name:"L - Numbers-1";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:.75in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:106%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -90,52 +78,61 @@ ul
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span style='color:black'>95<br>
-</span></span><a href="https://matplotlib.org"><span class=P-URL><span
-lang=EN-US>Matplotlib</span></span></a><span lang=EN-US>;2024;</span></p>
+<p class=P-Regular><span class=P-Endnote><span style='color:black;border:none'>95</span></span><i><sup><span
+style='font-family:"Arial",sans-serif;color:black;background:white'><br>
+</span></sup></i><a href="https://matplotlib.org/"><span class=P-URL><span
+lang=EN-US style='border:none'>Matplotlib</span></span></a><span lang=EN-US>;2024;</span></p>
 
-<p class=P-Regular><span class=P-Italics><span lang=EN-US>Matplotlib</span></span><span
+<p class=P-Regular><span class=P-Italics><span lang=EN-US style='border:none'>Matplotlib</span></span><span
 lang=EN-US> is a library for creating: static, animated, and interactive
-visualizations in </span><span class=P-Italics><span lang=EN-US>Python.</span></span><span
-lang=EN-US> You can do the following:</span></p>
+visualizations in </span><span class=P-Italics><span lang=EN-US
+style='border:none'>Python.</span></span><span lang=EN-US> You can do the
+following:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Create quality plots;</span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Create quality plots;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Create interactive figures (with zoom, pan, update);</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Create interactive figures (with zoom, pan, update);</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Customize visual styles (</span><span class=P-URL><span
-lang=EN><a
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Customize visual styles (</span><span class=P-URL><span lang=EN
+style='border:none'><a
 href="https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html"><span
 style='color:blue'>https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html</span></a></span></span><span
-lang=EN>) and layouts (e.g., </span><span class=P-Italics><span lang=EN>Mosaics</span></span><span
-lang=EN>: </span><span class=P-URL><span lang=EN><a
+lang=EN>) and layouts (e.g., </span><span class=P-Italics><span lang=EN
+style='border:none'>Mosaics</span></span><span lang=EN>: </span><span
+class=P-URL><span lang=EN style='border:none'><a
 href="https://matplotlib.org/stable/users/explain/axes/mosaic.html"><span
 style='color:blue'>https://matplotlib.org/stable/users/explain/axes/mosaic.html</span></a></span></span><span
 lang=EN>);</span></p>
 
-<p class=L-Numbers-1><span lang=EN>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Export to various file formats (</span><span
-class=P-URL><span lang=EN><a
-href="https://matplotlib.org/stable/api/figure_api.html%23matplotlib.figure.Figure.savefig"><span
-style='color:blue'>https://matplotlib.org/stable/api/figure_api.html#matplotlib.figure.Figure.savefig</span></a></span></span><span
-lang=EN>);</span></p>
+<p class=L-Numbers-1><span lang=EN>4.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Export to various file formats (see “matplotlib.figure.Figure.savefig”  on:
+ </span><span class=P-URL><span lang=EN style='border:none'><a
+href="https://matplotlib.org/stable/api/figure_api.html"><span
+style='color:blue'>https://matplotlib.org/stable/api/figure_api.html</span></a></span></span><span
+lang=EN>;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Embed in </span><span class=P-Italics><span
-lang=EN>JupyterLab</span></span><span lang=EN> and GUIs; and</span></p>
+<p class=L-Numbers-1><span lang=EN>5.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Embed in </span><span class=P-Italics><span lang=EN style='border:none'>JupyterLab</span></span><span
+lang=EN> and GUIs; and</span></p>
 
-<p class=L-Numbers-1><span lang=EN>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Use a many third-party packages built on Matplotlib
-(</span><span class=P-URL><span lang=EN><a
+<p class=L-Numbers-1><span lang=EN>6.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Use a many third-party packages built on Matplotlib (</span><span
+class=P-URL><span lang=EN style='border:none'><a
 href="https://matplotlib.org/mpl-third-party"><span style='color:blue'>https://matplotlib.org/mpl-third-party</span></a></span></span><span
 lang=EN>).</span></p>
 
 <p class=P-Regular><span lang=EN-US>Refer to </span><a
-href="https://matplotlib.org"><span class=P-URL><span lang=EN-US>https://matplotlib.org</span></span></a><span
-lang=EN-US>.</span></p>
+href="https://matplotlib.org"><span class=P-URL><span lang=EN-US
+style='border:none'>https://matplotlib.org</span></span></a><span lang=EN-US>.</span></p>
 
 </div>
 
