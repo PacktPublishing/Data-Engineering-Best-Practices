@@ -15,10 +15,11 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
+ p.P-Regular, li.P-Regular, div.P-Regular
+	{mso-style-name:"P - Regular";
+	margin-top:6.0pt;
 	margin-right:0in;
-	margin-bottom:8.0pt;
+	margin-bottom:6.0pt;
 	margin-left:0in;
 	line-height:106%;
 	font-size:11.0pt;
@@ -27,67 +28,40 @@ span.P-URL
 	{mso-style-name:"P - URL";
 	font-family:"Calibri",sans-serif;
 	color:blue;
-	border:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
 	font-weight:bold;
 	font-style:italic;
 	text-decoration:underline;}
 span.P-Italics
 	{mso-style-name:"P - Italics";
 	font-family:"Arial",sans-serif;
-	border:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
 	font-style:italic;}
-p.P-Regular, li.P-Regular, div.P-Regular
-	{mso-style-name:"P - Regular";
-	margin-top:6.0pt;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:0in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
 span.P-Endnote
 	{mso-style-name:"P - Endnote";
 	font-family:"Aptos",sans-serif;
 	font-variant:normal !important;
 	color:windowtext;
 	text-transform:none;
-	border:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
 	background:white;
 	font-style:italic;
-	text-decoration:none;
+	text-decoration:none none;
 	vertical-align:super;}
-p.IMG-Caption, li.IMG-Caption, div.IMG-Caption
-	{mso-style-name:"IMG - Caption";
-	margin-top:6.0pt;
-	margin-right:0in;
-	margin-bottom:12.0pt;
-	margin-left:0in;
-	text-align:center;
-	line-height:107%;
-	font-size:10.0pt;
-	font-family:"Aptos",sans-serif;
-	color:red;
-	font-weight:bold;}
 span.P-Keyword
 	{mso-style-name:"P - Keyword";
 	font-family:"Aptos",sans-serif;
 	background:white;
 	font-weight:bold;
 	text-decoration:underline;}
-p.Diagram, li.Diagram, div.Diagram
-	{mso-style-name:Diagram;
-	margin-top:6.0pt;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:0in;
-	text-align:center;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
@@ -98,38 +72,41 @@ div.WordSection1
 
 </head>
 
-<body lang=EN-GB style='word-wrap:break-word'>
+<body lang=EN-GB link=blue vlink=purple style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=P-Regular><a name="_Hlk164071078"></a><a name="_Hlk164071092"><span
-class=P-Endnote><span lang=EN style='color:black'>49</span></span></a><span
+<p class=P-Regular><a name="_Hlk164071092"></a><a name="_Hlk164071078"></a><span
+class=P-Endnote><span lang=EN style='color:black;border:none'>49</span></span><span
 lang=EN><br>
-</span><a
-href="../../../../../davids/OneDrive%20-%20Packt/Work/books/active/18021/Author/Chapter13/Oracle%20Semantic%20Data%20Management"><span
-class=P-URL><span lang=EN-US style='font-family:"Aptos",sans-serif'>Oracle
-Semantic Data Management</span></span></a><span lang=EN-US>; 2023; </span><span
-class=P-Italics><span lang=EN style='font-family:"Aptos",sans-serif'>Oracle</span></span><span
-lang=EN-US> produced an <span class=P-Keyword><span style='color:black'>OWL-RDF</span></span>
-tutorial here: </span><a
-href="https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/259478.htm"><span
-class=P-URL><span lang=EN style='font-family:"Aptos",sans-serif'>RDF Semantic
-Data Management Using the Oracle Spatial 11g Option</span></span></a><span
-lang=EN> </span><span lang=EN>(</span><a
-href="https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/259478.htm"><span
-class=P-URL><span lang=EN-US style='font-family:"Aptos",sans-serif'>https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/259478.htm</span></span></a><span
-lang=EN>) and stated its architectural directions in 2019. See <span
-class=P-Italics><span style='font-family:"Aptos",sans-serif'>Figure 13.11 -
-2019 Oracle RDF Knowledge Graph Architecture</span></span></span></p>
+</span><span class=P-URL><span style='border:none'><a
+href="https://www.oracle.com/a/tech/docs/introduction-to-rdf-graph-for-oracle-database19c.pdf">Oracle
+Semantic Data Management</a></span></span>;<span lang=EN-US> 2023;  </span></p>
 
-<p class=Diagram><span lang=EN><img border=0 width=528 height=328 id="Picture 4"
+<p class=P-Regular><span class=P-Italics><span lang=EN style='font-family:"Aptos",sans-serif;
+border:none'>Oracle</span></span><span lang=EN-US> produced an <span
+class=P-Keyword><span style='color:black'>OWL-RDF</span></span> tutorial here: </span></p>
+
+<p class=P-Regular><span class=P-URL><span style='border:none'><a
+href="https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/259478.htm">RDF
+Semantic Data Management Using the Oracle Spatial 11g Option</a></span></span><span
+lang=EN> (</span><span class=P-URL><span style='border:none'><a
+href="https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/259478.htm">https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/259478.htm</a></span></span><span
+lang=EN>) </span></p>
+
+<p class=P-Regular><span lang=EN>And stated its architectural directions in
+2019. </span></p>
+
+<p class=P-Regular><span lang=EN>See below</span><span class=P-Italics><span
+lang=EN style='font-family:"Aptos",sans-serif;border:none'> 2019 Oracle RDF
+Knowledge Graph Architecture</span></span></p>
+
+<p class=P-Regular><span lang=EN><img border=0 width=528 height=328
 src="49_files/image001.png"
 alt="A screenshot of a computer&#10;&#10;Description automatically generated"></span></p>
 
-<p class=IMG-Caption><span lang=EN style='font-size:11.0pt;line-height:107%'>Figure
-13.11 - 2019 Oracle RDF Knowledge Graph Architecture</span></p>
-
-<p class=MsoNormal><span lang=EN>&nbsp;</span></p>
+<p class=P-Regular><span lang=EN>Refer to: </span><span class=P-URL><span
+style='border:none'>https://www.oracle.com/a/tech/docs/introduction-to-rdf-graph-for-oracle-database19c.pdf</span></span></p>
 
 </div>
 
