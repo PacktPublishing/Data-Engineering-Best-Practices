@@ -10,6 +10,9 @@
 	{font-family:Courier;
 	panose-1:2 7 4 9 2 2 5 2 4 4;}
 @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -68,20 +71,27 @@ span.P-Code
 	border:none windowtext 1.0pt;
 	padding:0in;
 	background:#D5FC79;}
+.MsoChpDefault
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:106%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
 -->
 </style>
 
 </head>
 
-<body lang=EN-GB link=blue vlink=purple style='word-wrap:break-word'>
+<body lang=EN-US link=blue vlink=purple style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
@@ -95,18 +105,37 @@ none'>Apache Beam Project</span></span></a> (<a href="https://beam.apache.org/">
 class=P-URL><span style='border:none'>https://beam.apache.org</span></span></a>);
 2024;</span></p>
 
+<p class=P-Regular><span lang=EN>&nbsp;</span></p>
+
 <p class=P-Regular><span lang=EN>In the </span><span class=P-Italics><span
 lang=EN style='border:none'>Beam</span></span><span lang=EN> capability matrix
-you will find mappings to each of these products: </span><span class=P-Italics><span
-lang=EN style='border:none'>Google Cloud Dataflow,</span></span><span lang=EN> </span><span
-class=P-Italics><span lang=EN style='border:none'>Apache Flink,</span></span><span
-lang=EN> </span><span class=P-Italics><span lang=EN style='border:none'>Apache
-Spark (RDD/DStream based),</span></span><span lang=EN> </span><span
+you will find mappings to each of these products: </span></p>
+
+<p class=P-Regular style='margin-left:.75in;text-indent:-.25in'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Google Cloud Dataflow</span></span></p>
+
+<p class=P-Regular style='margin-left:.75in;text-indent:-.25in'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Apache Flink</span></span></p>
+
+<p class=P-Regular style='margin-left:.75in;text-indent:-.25in'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Italics><span lang=EN style='border:none'>Apache Spark (RDD/DStream
+based)</span></span></p>
+
+<p class=P-Regular style='margin-left:.75in;text-indent:-.25in'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
 class=P-Italics><span lang=EN style='border:none'>Apache Spark Structured
-Streaming (Dataset based),</span></span><span lang=EN> and </span><span
+Streaming (Dataset based)</span></span><span lang=EN> </span></p>
+
+<p class=P-Regular style='margin-left:.75in;text-indent:-.25in'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
 class=P-Italics><span lang=EN style='border:none'>Apache Samza</span></span><span
 lang=EN> are mapped to </span><span class=P-Italics><span lang=EN
-style='border:none'>Apache Beam.</span></span><span lang=EN> </span></p>
+style='border:none'>Apache Beam</span></span><span lang=EN> </span></p>
+
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>&nbsp;</span></span></p>
 
 <p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>Apache
 Beam</span></span><span lang=EN> and </span><span class=P-Italics><span
@@ -136,7 +165,7 @@ are seen in the table below:</span></p>
   </td>
   <td style='border-top:solid windowtext 1.0pt;border-left:none;border-bottom:
   none;border-right:solid windowtext 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes : fully
+  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes: fully
   supported</span></i></b></p>
   </td>
  </tr>
@@ -147,8 +176,8 @@ are seen in the table below:</span></p>
   </td>
   <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><span lang=EN style='color:black'>Batch mode uses large
-  bundle sizes. Streaming uses smaller sizes.</span></p>
+  <p class=P-Regular><span lang=EN style='color:black'>Batch mode uses large bundle
+  sizes. Streaming uses smaller sizes.</span></p>
   </td>
  </tr>
  <tr>
@@ -159,7 +188,8 @@ are seen in the table below:</span></p>
   </td>
   <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><span lang=EN style='color:black'>Yes : fully supported</span></p>
+  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes: fully
+  supported</span></i></b></p>
   </td>
  </tr>
  <tr>
@@ -170,7 +200,7 @@ are seen in the table below:</span></p>
   </td>
   <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes : fully
+  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes: fully
   supported</span></i></b></p>
   </td>
  </tr>
@@ -182,7 +212,7 @@ are seen in the table below:</span></p>
   </td>
   <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes : efficient
+  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes: efficient
   execution</span></i></b></p>
   </td>
  </tr>
@@ -195,7 +225,7 @@ are seen in the table below:</span></p>
   </td>
   <td style='border:none;border-right:solid windowtext 1.0pt;background:#F9F9F9;
   padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><b><i><span lang=EN style='color:black'>Partially :
+  <p class=P-Regular><b><i><span lang=EN style='color:black'>Partially:
   supported via inlining</span></i></b></p>
   </td>
  </tr>
@@ -220,7 +250,7 @@ are seen in the table below:</span></p>
   </td>
   <td style='border:none;border-right:solid windowtext 1.0pt;background:white;
   padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes : some size
+  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes: some size
   restrictions in streaming</span></i></b></p>
   </td>
  </tr>
@@ -244,7 +274,7 @@ are seen in the table below:</span></p>
   </td>
   <td style='border:none;border-right:solid windowtext 1.0pt;background:white;
   padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes : fully
+  <p class=P-Regular><b><i><span lang=EN style='color:black'>Yes: fully
   supported</span></i></b></p>
   </td>
  </tr>
@@ -255,12 +285,11 @@ are seen in the table below:</span></p>
   </td>
   <td style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
   border-right:solid windowtext 1.0pt;background:white;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><span lang=EN style='color:black'>Support includes <a
-  href="https://cloud.google.com/dataflow/service/dataflow-service-desc"><span
-  class=P-URL><span style='border:none'>Search for &quot;autotuning
-  features&quot; in: </span></span></a> <a
+  <p class=P-Regular><span style='color:black'>Support includes Search for <b><i>&quot;autotuning
+  features&quot;</i></b> in </span><span lang=EN style='color:black'><a
   href="https://cloud.google.com/dataflow/docs/guides/deploying-a-pipeline"><span
-  class=P-URL><span style='border:none'>https://cloud.google.com/dataflow/docs/guides/deploying-a-pipeline</span></span></a>.</span></p>
+  class=P-URL><span style='border:none'>https://cloud.google.com/dataflow/docs/guides/deploying-a-pipeline</span></span></a></span><span
+  style='color:black'>.</span></p>
   </td>
  </tr>
  <tr>
@@ -291,7 +320,7 @@ are seen in the table below:</span></p>
   </td>
   <td style='border:none;border-right:solid windowtext 1.0pt;background:#F9F9F9;
   padding:0in 5.4pt 0in 5.4pt'>
-  <p class=P-Regular><b><i><span lang=EN style='color:black'>Partially :
+  <p class=P-Regular><b><i><span lang=EN style='color:black'>Partially:
   non-merging windows</span></i></b></p>
   </td>
  </tr>
