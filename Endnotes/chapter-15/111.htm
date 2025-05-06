@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,13 +15,25 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- p.P-Regular, li.P-Regular, div.P-Regular
+ a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
+p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
+	{mso-style-name:"L - Numbers-1";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:4.0pt;
+	margin-left:.75in;
+	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
 span.P-URL
@@ -50,102 +59,96 @@ span.P-Endnote
 	background:white;
 	font-style:italic;
 	vertical-align:super;}
-p.L-Numbers-2, li.L-Numbers-2, div.L-Numbers-2
-	{mso-style-name:"L - Numbers-2";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:1.25in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
-p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
-	{mso-style-name:"L - Numbers-1";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:.75in;
-	text-indent:-.25in;
-	font-size:11.0pt;
-	font-family:"Aptos",sans-serif;}
 span.P-Bold
 	{mso-style-name:"P - Bold";
 	font-family:"Calibri",sans-serif;
-	border:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
 	background:white;
 	font-weight:bold;
 	font-style:normal;}
+.MsoChpDefault
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:106%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
 </head>
 
-<body lang=EN-GB link="#467886" vlink="#96607D" style='word-wrap:break-word'>
+<body lang=EN-US link="#467886" vlink="#96607D" style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span style='color:black'>111<br>
-</span></span><span class=P-URL><a
-href="https://towardsdatascience.com/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332"><span
-style='color:blue'>Set Your Jupyter Notebook up Right with this Extension</span></a></span>;
-by <a href="https://williamkoehrsen.medium.com"><span class=P-URL>Will Koehrsen</span></a><span
-style='font-size:10.0pt;line-height:106%'> (</span><span class=P-URL><a
-href="https://williamkoehrsen.medium.com"><span style='color:blue'>https://williamkoehrsen.medium.com</span></a></span>
-in Towards Data Science); March 1, 2019;</p>
+<p class=P-Regular><span class=P-Endnote><span lang=EN-GB style='color:black;
+border:none'>111</span></span><i><sup><span lang=EN-GB style='font-family:"Arial",sans-serif;
+color:black;background:white'><br>
+</span></sup></i><span class=P-URL><span lang=EN-GB style='border:none'><a
+href="https://medium.com/data-science/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332"><span
+style='color:blue'>Set Your Jupyter Notebook up Right with this Extension</span></a></span></span><span
+lang=EN-GB>; by <a href="https://williamkoehrsen.medium.com"><span class=P-URL><span
+style='border:none'>Will Koehrsen</span></span></a></span><span lang=EN-GB
+style='font-size:10.0pt;line-height:105%'> (</span><span class=P-URL><span
+lang=EN-GB style='border:none'><a href="https://williamkoehrsen.medium.com"><span
+style='color:blue'>https://williamkoehrsen.medium.com</span></a></span></span><span
+lang=EN-GB> in Towards Data Science); March 1, 2019;</span></p>
 
-<p class=P-Regular>The approach laid out address notebook problems like:</p>
+<p class=P-Regular><span lang=EN-GB>The approach laid out address notebook
+problems like:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>No title;</span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>No title;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>No explanations of what the code should do or how
-it works;</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>No explanations of what the code should do or how it works;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Cells run out of order; and</span></p>
+<p class=L-Numbers-1><span lang=EN>3.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Cells run out of order; and</span></p>
 
-<p class=L-Numbers-1><span lang=EN>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Errors in cell output.</span></p>
+<p class=L-Numbers-1><span lang=EN>4.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Errors in cell output.</span></p>
 
-<p class=P-Regular>The solution is to use a <span class=P-Italics>Jupyter</span>
-notebook extension that on opening a new notebook automatically:</p>
+<p class=P-Regular><span lang=EN-GB>The solution is to use a </span><span
+class=P-Italics><span lang=EN-GB style='border:none'>Jupyter</span></span><span
+lang=EN-GB> notebook extension that on opening a new notebook automatically:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Creates a template that guides a notebook author to
-produce structured documentation;</span></p>
+<p class=L-Numbers-1><span lang=EN>5.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Creates a template that guides a notebook author to produce structured
+documentation;</span></p>
 
-<p class=L-Numbers-1><span lang=EN>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Inserts a number of common library imports /
-settings; and </span></p>
+<p class=L-Numbers-1><span lang=EN>6.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Inserts a number of common library imports / settings; and </span></p>
 
-<p class=L-Numbers-1><span lang=EN>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN>Prompts the author to change the notebook name from
-the default label which is </span><span class=P-Bold><span lang=EN
-style='color:black'>Untitled.</span></span></p>
+<p class=L-Numbers-1><span lang=EN>7.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+lang=EN>Prompts the author to change the notebook name from the default label
+which is </span><span class=P-Bold><span lang=EN style='color:black;border:
+none'>Untitled.</span></span></p>
 
-<p class=P-Regular>The extension changes the notebook defaults settings.</p>
+<p class=P-Regular><span lang=EN-GB>The extension changes the notebook defaults
+settings.</span></p>
 
-<p class=P-Regular>This way markdown cells, notebook name, and imports are
-mandatory features of the new notebook rather than the out-of-the box default
-(which has none of these set).</p>
+<p class=P-Regular><span lang=EN-GB>This way markdown cells, notebook name, and
+imports are mandatory features of the new notebook rather than the out-of-the
+box default (which has none of these set).</span></p>
 
-<p class=P-Regular>Refer to <span class=P-URL><a
-href="https://towardsdatascience.com/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332"><span
-style='color:blue'>https://towardsdatascience.com/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332</span></a></span>.</p>
+<p class=P-Regular><span lang=EN-GB>Refer to </span><span class=P-URL><span
+lang=EN-GB style='border:none'><a
+href="https://medium.com/data-science/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332"><span
+style='color:blue'>https://medium.com/data-science/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332</span></a></span></span><span
+lang=EN-GB>.</span></p>
 
 </div>
 
