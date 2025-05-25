@@ -7,6 +7,9 @@
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -15,13 +18,24 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- p.P-Regular, li.P-Regular, div.P-Regular
+ h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:105%;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;
+	text-decoration:underline;}
+p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:106%;
+	line-height:105%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
 span.P-URL
@@ -51,52 +65,184 @@ span.P-Endnote
 	font-style:italic;
 	text-decoration:none none;
 	vertical-align:super;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Aptos",sans-serif;
+	font-weight:bold;
+	text-decoration:underline;}
+.MsoChpDefault
+	{font-size:10.0pt;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:106%;}
+	line-height:105%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
 -->
 </style>
 
 </head>
 
-<body lang=EN-GB link="#467886" vlink="#96607D" style='word-wrap:break-word'>
+<body lang=EN-US link="#467886" vlink="#96607D" style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
 <p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
 border:none'>68</span></span><i><sup><span lang=EN style='color:black;
 background:white'><br>
-</span></sup></i><span class=P-URL><span lang=EN style='border:none'>&quot;</span></span><span
-lang=EN><a
-href="https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineering"><span
-class=P-URL><span style='border:none'>Getting started with LLM prompt
-engineering</span></span></a></span><span class=P-URL><span lang=EN
-style='border:none'>&quot;</span></span><span lang=EN>; by Microsoft; 2024;</span></p>
+</span></sup></i><span lang=EN><a
+href="https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/understanding-prompt-engineering-fundamentals-generative-ai-for-beginners"><span
+class=P-URL><span style='font-family:"Aptos",sans-serif;border:none'>Understanding
+Prompt Engineering Fundamentals</span></span></a>; by Microsoft; 2024;</span></p>
 
-<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>Prompt
-engineering</span></span><span lang=EN> can improve specific performance of </span><span
-class=P-Italics><span lang=EN style='border:none'>LLM</span></span><span
+<p class=P-Regular><span class=P-Italics><span lang=EN style='font-family:"Aptos",sans-serif;
+border:none'>Prompt engineering</span></span><span lang=EN> can improve the
+specific performance of </span><span class=P-Italics><span lang=EN
+style='font-family:"Aptos",sans-serif;border:none'>LLM</span></span><span
 lang=EN>s for some tasks. Contextual information helps guide the model's
-output. With engineered prompts, the LLMs is steered in the direction of
+output. With engineered prompts, the LLMs are steered in the direction of
 specific relevant information that in turn leads to better results. The issue
-of </span><span class=P-Italics><span lang=EN style='border:none'>catastrophic
-forgetting,</span></span><span lang=EN> (LLM forgets previously learned
-information) can take place when fine-tuning the models output for a given
-task. With designed prompts, the model can still retain relevant knowledge
-while adapting to new tasks.</span></p>
+of </span><span class=P-Italics><span lang=EN style='font-family:"Aptos",sans-serif;
+border:none'>catastrophic forgetting,</span></span><span lang=EN> (LLM forgets
+previously learned information) can take place when fine-tuning the model’s
+output for a given task. With designed prompts, the model can still retain
+relevant knowledge while adapting to new tasks.</span></p>
 
 <p class=P-Regular><span lang=EN>Note: </span><span class=P-Italics><span
-lang=EN style='border:none'>Prompt engineering</span></span><span lang=EN> is a
-fine-tuning approach for an LLM!</span></p>
+lang=EN style='font-family:"Aptos",sans-serif;border:none'>Prompt engineering</span></span><span
+lang=EN> is a fine-tuning approach for an LLM!</span></p>
 
-<p class=P-Regular><span lang=EN>Refer to <a
-href="https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineering"><span
-class=P-URL><span style='border:none'>https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineering</span></span></a>.</span></p>
+<h1><span lang=EN-GB>Definition:</span></h1>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/customizing-llms#prompt-engineering"><span
+lang=EN-GB style='color:blue'>Definition of Prompt Engineering</span></a></span></span>
+<span lang=EN-GB>(</span><span class=P-URL><span style='font-family:"Aptos",sans-serif;
+border:none'><a
+href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/customizing-llms%23prompt-engineering"><span
+lang=EN-GB style='color:blue'>https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/customizing-llms#prompt-engineering</span></a></span></span><span
+lang=EN-GB>)</span></p>
+
+<h1><span lang=EN-GB>Basics:</span></h1>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://www.youtube.com/watch?v=e7w6QV1NX1c"><span lang=EN-GB
+style='color:blue'>The Basics of Prompt Engineering with Azure OpenAI Service</span></a></span></span>
+(<span class=P-URL><span style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://www.youtube.com/watch?v=e7w6QV1NX1c"><span lang=EN-GB
+style='color:blue'>https://www.youtube.com/watch?v=e7w6QV1NX1c</span></a></span></span><span
+lang=EN-GB>)</span></p>
+
+<h1><span lang=EN-GB>Beginner Learning:</span></h1>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners"><span
+lang=EN-GB style='color:blue'>Generative AI for Beginners</span></a></span></span>
+<span lang=EN-GB>(</span><span class=P-URL><span style='font-family:"Aptos",sans-serif;
+border:none'><a
+href="https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners"><span
+lang=EN-GB style='color:blue'>https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners</span></a></span></span><span
+lang=EN-GB>)</span></p>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/understanding-prompt-engineering-fundamentals-generative-ai-for-beginners"><span
+lang=EN-GB style='color:blue'>Understanding Prompt Engineering Fundamentals
+(Part 4 of 18) | Generative AI for Beginners</span></a></span></span> <span
+lang=EN-GB>(</span><span class=P-URL><span style='font-family:"Aptos",sans-serif;
+border:none'><a
+href="https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/understanding-prompt-engineering-fundamentals-generative-ai-for-beginners"><span
+lang=EN-GB style='color:blue'>https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/understanding-prompt-engineering-fundamentals-generative-ai-for-beginners</span></a></span></span><span
+lang=EN-GB>)</span></p>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/creating-advanced-prompts-generative-ai-for-beginners"><span
+lang=EN-GB style='color:blue'>Creating Advanced Prompts (Part 5 of 18) |
+Generative AI for Beginners</span></a> </span></span><span lang=EN-GB>(</span><span
+class=P-URL><span style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/creating-advanced-prompts-generative-ai-for-beginners"><span
+lang=EN-GB style='color:blue'>https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners/creating-advanced-prompts-generative-ai-for-beginners</span></a></span></span><span
+lang=EN-GB>)</span></p>
+
+<h1><span lang=EN-GB>Techniques:</span></h1>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering"><span
+lang=EN-GB style='color:blue'>Prompt Engineering Techniques</span></a></span></span>
+<span lang=EN-GB>(</span><span class=P-URL><span style='font-family:"Aptos",sans-serif;
+border:none'><a
+href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering"><span
+lang=EN-GB style='color:blue'>https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering</span></a></span></span><span
+lang=EN-GB>)</span></p>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/gpt-4-v-prompt-engineering"><span
+lang=EN-GB style='color:blue'>Image Prompt Engineering Techniques</span></a></span></span>
+(<span class=P-URL><span style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/gpt-4-v-prompt-engineering"><span
+lang=EN-GB style='color:blue'>https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/gpt-4-v-prompt-engineering</span></a></span></span>)</p>
+
+<h1><span lang=EN-GB>Blog:</span></h1>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://techcommunity.microsoft.com/blog/azure-ai-services-blog/15-tips-to-become-a-better-prompt-engineer-for-generative-ai/3882935"><span
+lang=EN-GB style='color:blue'>15 Tips to Become a Better Prompt Engineer for
+Generative AI</span></a> </span></span><span lang=EN-GB>(</span><span
+class=P-URL><span style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://techcommunity.microsoft.com/blog/azure-ai-services-blog/15-tips-to-become-a-better-prompt-engineer-for-generative-ai/3882935"><span
+lang=EN-GB style='color:blue'>https://techcommunity.microsoft.com/blog/azure-ai-services-blog/15-tips-to-become-a-better-prompt-engineer-for-generative-ai/3882935</span></a></span></span><span
+lang=EN-GB>)</span></p>
+
+<h1><span lang=EN-GB>Tools:</span></h1>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow"><span
+lang=EN-GB style='color:blue'>What is Azure Machine Learning Prompt Flow?</span></a></span></span>
+<span lang=EN-GB>(</span><span class=P-URL><span style='font-family:"Aptos",sans-serif;
+border:none'><a
+href="https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow"><span
+lang=EN-GB style='color:blue'>https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow</span></a></span></span><span
+lang=EN-GB>)</span></p>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://azure.microsoft.com/en-us/products/ai-services/openai-service"><span
+lang=EN-GB style='color:blue'>Azure OpenAI in Foundry Models</span></a></span></span>
+(<span class=P-URL><span style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://azure.microsoft.com/en-us/products/ai-services/openai-service"><span
+lang=EN-GB style='color:blue'>https://azure.microsoft.com/en-us/products/ai-services/openai-service</span></a></span></span>)</p>
+
+<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://techcommunity.microsoft.com/blog/machinelearningblog/deploy-large-language-models-responsibly-with-azure-ai/3876792"><span
+lang=EN-GB style='color:blue'>Deploy Large Language Models Responsibly with
+Azure AI</span></a></span></span><span lang=EN-GB> (</span><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://techcommunity.microsoft.com/blog/machinelearningblog/deploy-large-language-models-responsibly-with-azure-ai/3876792"><span
+lang=EN-GB style='color:blue'>https://techcommunity.microsoft.com/blog/machinelearningblog/deploy-large-language-models-responsibly-with-azure-ai/3876792</span></a></span></span><span
+lang=EN-GB>)</span></p>
+
+<p class=P-Regular><span lang=EN>Refer to </span><span class=P-URL><span
+style='font-family:"Aptos",sans-serif;border:none'><a
+href="https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners"><span
+lang=EN-GB style='color:blue'>https://learn.microsoft.com/en-us/shows/generative-ai-for-beginners</span></a></span></span><span
+lang=EN>.</span></p>
 
 </div>
 
