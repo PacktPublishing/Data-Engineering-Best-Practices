@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,46 +15,15 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- span.P-URL
-	{mso-style-name:"P - URL";
-	font-family:"Calibri",sans-serif;
-	color:blue;
-	border:none;
-	font-weight:bold;
-	font-style:italic;
-	text-decoration:underline;}
-span.P-Italics
-	{mso-style-name:"P - Italics";
-	font-family:"Arial",sans-serif;
-	border:none;
-	font-style:italic;}
-p.P-Regular, li.P-Regular, div.P-Regular
+ p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
 	margin-top:6.0pt;
 	margin-right:0in;
 	margin-bottom:6.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:106%;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-span.P-Endnote
-	{mso-style-name:"P - Endnote";
-	font-family:"Aptos",sans-serif;
-	font-variant:normal !important;
-	color:windowtext;
-	text-transform:none;
-	border:none;
-	background:white;
-	font-style:italic;
-	text-decoration:none;
-	vertical-align:super;}
-span.P-Bold
-	{mso-style-name:"P - Bold";
-	font-family:"Calibri",sans-serif;
-	border:none;
-	background:white;
-	font-weight:bold;
-	font-style:normal;}
 p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	{mso-style-name:"L - Numbers-1";
 	margin-top:0in;
@@ -67,54 +33,101 @@ p.L-Numbers-1, li.L-Numbers-1, div.L-Numbers-1
 	text-indent:-.25in;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;}
-.MsoChpDefault
-	{font-size:11.0pt;}
+span.P-URL
+	{mso-style-name:"P - URL";
+	font-family:"Calibri",sans-serif;
+	color:blue;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;}
+span.P-Italics
+	{mso-style-name:"P - Italics";
+	font-family:"Arial",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	font-style:italic;}
+span.P-Endnote
+	{mso-style-name:"P - Endnote";
+	font-family:"Aptos",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-style:italic;
+	text-decoration:none none;
+	vertical-align:super;}
+span.P-Bold
+	{mso-style-name:"P - Bold";
+	font-family:"Calibri",sans-serif;
+	border:none windowtext 1.0pt;
+	padding:0in;
+	background:white;
+	font-weight:bold;
+	font-style:normal;}
 .MsoPapDefault
 	{margin-bottom:8.0pt;
-	line-height:107%;}
+	line-height:106%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
 </head>
 
-<body lang=EN-GB link="#467886" vlink="#96607D" style='word-wrap:break-word'>
+<body lang=EN-US link="#467886" vlink="#96607D" style='word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black'>66<br>
-</span></span><span lang=EN><a
-href="https://ts.llamaindex.ai/getting_started/concepts"><span class=P-URL>LlamaIndex.TS</span></a>;
-2024;</span></p>
+<p class=P-Regular><span class=P-Endnote><span lang=EN style='color:black;
+border:none'>66</span></span><i><sup><span lang=EN style='color:black;
+background:white'><br>
+</span></sup></i><span lang=EN><a
+href="https://ts.llamaindex.ai/docs/llamaindex"><span class=P-URL><span
+style='border:none'>LlamaIndex.TS</span></span></a>; 2024;</span></p>
 
-<p class=P-Regular><span class=P-Italics><span lang=EN>LlamaIndex</span></span><span
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>LlamaIndex</span></span><span
 lang=EN> works in two stages:</span></p>
 
-<p class=L-Numbers-1><span lang=EN>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>indexing
-stage</span></span><span lang=EN> for preparing a knowledge base for use; and</span></p>
+<p class=L-Numbers-1><span lang=EN>1.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>indexing stage</span></span><span
+lang=EN> for preparing a knowledge base for use; and</span></p>
 
-<p class=L-Numbers-1><span lang=EN>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=P-Bold><span lang=EN style='color:black'>querying
-stage</span></span><span lang=EN> for getting relevant context from the
-knowledge base to assist the LLM in responding to questions.</span></p>
+<p class=L-Numbers-1><span lang=EN>2.</span><span lang=EN style='font-size:
+7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=P-Bold><span lang=EN style='color:black;border:none'>querying stage</span></span><span
+lang=EN> for getting relevant context from the knowledge base to assist the LLM
+in responding to questions.</span></p>
 
 <p class=P-Regular><span lang=EN>This process implements </span><span
-class=P-Italics><span lang=EN>retrieval augmented generation (RAG)</span></span><span
-lang=EN> capabilities of </span><span class=P-Italics><span lang=EN>LlamaIndex.TS</span></span><span
-lang=EN> which provides a toolkit for making both steps easy.</span></p>
+class=P-Italics><span lang=EN style='border:none'>retrieval augmented
+generation (RAG)</span></span><span lang=EN> capabilities of </span><span
+class=P-Italics><span lang=EN style='border:none'>LlamaIndex.TS</span></span><span
+lang=EN> which provides a toolkit for making both steps easy. </span></p>
+
+<p class=P-Regular><span class=P-Italics><span lang=EN style='border:none'>LlamaIndex</span></span><span
+lang=EN> is a data framework for building LLM applications and for building
+context-augmented generative AI applications with LLMs including agents and
+workflows. The </span><span class=P-Italics><span lang=EN style='border:none'>TypeScript</span></span><span
+lang=EN> implementation is designed for </span><span class=P-Italics><span
+lang=EN style='border:none'>JavaScript</span></span><span lang=EN> server side
+applications using </span><span class=P-Italics><span lang=EN style='border:
+none'>Node.js</span></span><span lang=EN>, </span><span class=P-Italics><span
+lang=EN style='border:none'>Deno</span></span><span lang=EN>, </span><span
+class=P-Italics><span lang=EN style='border:none'>Bun</span></span><span
+lang=EN>, </span><span class=P-Italics><span lang=EN style='border:none'>Cloudflare
+Workers</span></span><span lang=EN>, and more. </span></p>
 
 <p class=P-Regular><span lang=EN>Refer to <a
-href="https://ts.llamaindex.ai/getting_started/concepts"><span class=P-URL>https://ts.llamaindex.ai/getting_started/concepts</span></a>.</span></p>
+href="https://ts.llamaindex.ai/docs/llamaindex"><span class=P-URL><span
+style='border:none'>https://ts.llamaindex.ai/docs/llamaindex</span></span></a>.</span></p>
 
 </div>
 
