@@ -7,9 +7,6 @@
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
@@ -18,7 +15,11 @@
 @font-face
 	{font-family:Aptos;}
  /* Style Definitions */
- h1
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
 	{mso-style-link:"Heading 1 Char";
 	margin-top:6.0pt;
 	margin-right:0in;
@@ -28,6 +29,15 @@
 	page-break-after:avoid;
 	font-size:11.0pt;
 	font-family:"Aptos",sans-serif;
+	text-decoration:underline;}
+a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Aptos",sans-serif;
+	font-weight:bold;
 	text-decoration:underline;}
 p.P-Regular, li.P-Regular, div.P-Regular
 	{mso-style-name:"P - Regular";
@@ -65,12 +75,6 @@ span.P-Endnote
 	font-style:italic;
 	text-decoration:none none;
 	vertical-align:super;}
-span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Aptos",sans-serif;
-	font-weight:bold;
-	text-decoration:underline;}
 .MsoChpDefault
 	{font-size:10.0pt;}
 .MsoPapDefault
@@ -81,11 +85,6 @@ span.Heading1Char
 	margin:119.5pt 1.5in 131.75pt 1.5in;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
 -->
 </style>
 
@@ -122,14 +121,16 @@ lang=EN> is a fine-tuning approach for an LLM!</span></p>
 
 <h1><span lang=EN-GB>Definition:</span></h1>
 
-<p class=P-Regular style='margin-left:.5in'><span class=P-URL><span
-style='font-family:"Aptos",sans-serif;border:none'><a
-href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/customizing-llms#prompt-engineering"><span
-lang=EN-GB style='color:blue'>Definition of Prompt Engineering</span></a></span></span>
-<span lang=EN-GB>(</span><span class=P-URL><span style='font-family:"Aptos",sans-serif;
-border:none'><a
-href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/customizing-llms%23prompt-engineering"><span
-lang=EN-GB style='color:blue'>https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/customizing-llms#prompt-engineering</span></a></span></span><span
+<p class=MsoNormal style='margin-left:.5in'><span class=P-URL><span
+style='border:none'>Overview of prompts</span></span> (<span class=P-URL><span
+style='border:none'><a
+href="https://learn.microsoft.com/en-us/ai-builder/prompts-overview"><span
+style='color:blue'>https://learn.microsoft.com/en-us/ai-builder/prompts-overview</span></a></span></span>)</p>
+
+<p class=MsoNormal style='margin-left:.5in'><span class=P-URL><span
+style='border:none'>“<a href="What%20a%20prompt%20is%20and%20how%20to%20use%20it”"><span
+style='color:blue'>What a prompt is and how to use it”</span></a></span></span>
+<span lang=EN-GB>(</span><span class=P-URL><span style='border:none'>https://learn.microsoft.com/en-us/ai-builder/prompts-overview#what-a-prompt-is-and-how-to-use-it</span></span><span
 lang=EN-GB>)</span></p>
 
 <h1><span lang=EN-GB>Basics:</span></h1>
